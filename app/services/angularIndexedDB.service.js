@@ -257,5 +257,4 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         }
     }
 });
-
-//# sourceMappingURL=angularIndexedDB.service.js.map
+//# sourceMappingURL=AngularIndexedDB.service.js.map

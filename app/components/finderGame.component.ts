@@ -21,7 +21,6 @@ export class FinderGameComponent implements OnInit {
     private static BOARD_SIZE: number = 18;
     errorMessage: string;
     respostaErrada: boolean;
-    alertOpen: boolean;
     faseCompleta: boolean;
 
     verbs: VerbDefinition[];
@@ -33,7 +32,7 @@ export class FinderGameComponent implements OnInit {
     dificuldade: number;
     randomPronomText: any;
 
-    @Output() close: EventEmitter<any>;
+    @Output() close: EventEmitter<string>;
 
     caixasResposta: LetterBoxDefinition;
 
@@ -44,7 +43,7 @@ export class FinderGameComponent implements OnInit {
         this.respostaErrada = false;
         this.faseCompleta = false;
         this.dificuldade = 1;
-        this.close = new EventEmitter();
+        this.close = new EventEmitter<string>();
     }
 
     rightanswer() {
@@ -161,7 +160,7 @@ export class FinderGameComponent implements OnInit {
     }
 
     showAlert() {
-        this.close.emit('close');
+        this.close.emit("success-alert");
     }
 
     closeAlert(obj) {

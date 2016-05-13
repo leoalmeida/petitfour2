@@ -40,5 +40,4 @@ System.register(['@angular/core', '@angular/common'], function(exports_1, contex
         }
     }
 });
-
 //# sourceMappingURL=navbar.component.js.map

@@ -31,7 +31,7 @@ System.register(['@angular/core', "./finderGame.component"], function(exports_1,
                 FinderComponent = __decorate([
                     core_1.Component({
                         selector: 'finder',
-                        template: "\n            <div class=\"panel panel-success round\">\n                <finder-form></finder-form>\n                \n                <div class=\"footer\">\n                    <div class=\"error\" *ngIf=\"errorMessage\">{{errorMessage}}</div>\n                </div>\n            </div>\n    ",
+                        template: "\n            <finder-form>\n            </finder-form>\n    ",
                         directives: [finderGame_component_1.FinderGameComponent]
                     }), 
                     __metadata('design:paramtypes', [])
@@ -42,5 +42,4 @@ System.register(['@angular/core', "./finderGame.component"], function(exports_1,
         }
     }
 });
-
 //# sourceMappingURL=finder.component.js.map

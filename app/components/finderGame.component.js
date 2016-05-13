@@ -130,7 +130,7 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
                     this.showAlert();
                 };
                 FinderGameComponent.prototype.showAlert = function () {
-                    this.close.emit('close');
+                    this.close.emit("success-alert");
                 };
                 FinderGameComponent.prototype.closeAlert = function (obj) {
                     console.log("event caught" + obj.toString());

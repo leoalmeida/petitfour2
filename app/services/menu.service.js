@@ -62,5 +62,4 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
         }
     }
 });
-
 //# sourceMappingURL=menu.service.js.map

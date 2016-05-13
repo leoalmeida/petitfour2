@@ -16,13 +16,8 @@ import {FinderGameComponent} from "./finderGame.component";
 @Component({
     selector: 'finder',
     template: `
-            <div class="panel panel-success round">
-                <finder-form></finder-form>
-                
-                <div class="footer">
-                    <div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
-                </div>
-            </div>
+            <finder-form>
+            </finder-form>
     `,
     directives: [FinderGameComponent]
     //providers:  [HTTP_PROVIDERS,VerbsService, provide(XHRBackend, { useClass: InMemoryBackendService }),provide(SEED_DATA,  { useClass: VerbsData })]

@@ -51,5 +51,4 @@ System.register(['@angular/core', "@angular/router", "./home.component", "./find
         }
     }
 });
-
 //# sourceMappingURL=menuRouter.component.js.map
