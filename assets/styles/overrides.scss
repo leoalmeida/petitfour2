@@ -1,0 +1,93 @@
+.navbar-text,.navbar-form {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.painel {
+  margin: 0;
+  padding: 0;
+}
+
+.panel-title {
+  font-weight: bold;
+  color: color(primary);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.navbar-brand {
+  padding: 2px 15px;
+  height: 32px;
+}
+
+
+.fixed-btn-menu{
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  z-index: 3000;
+}
+
+
+.botao {
+  display:inline-block;
+  padding: 1.25em 1.25em;
+  text-decoration: none;
+  font-size: 1em;
+  border: 0;
+}
+
+.botao:hover {
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+  cursor: pointer;
+}
+
+.botao-default {
+  color: #000;
+  background-color: rgba(0,0,0,.15);
+}
+
+.botao-primary {
+  color: #fff;
+  background-color: #3f9de2;
+}
+
+.botao-success {
+  color: #fff;
+  background-color: rgba(132, 196, 143, 0.8);
+}
+
+.botao-danger{
+  color: #fff;
+  background-color: rgba(231, 120, 120, 0.8);
+}
+
+.botao-warning {
+  color: #fff;
+  background-color: #F28E00;
+}
+
+.botao-shadow {
+  box-shadow: 0em 0em 0.2em 0.2em rgba(153, 153, 153, 0.8);
+}
+
+.botao-pequeno {
+  font-size: 60%;
+}
+.botao-normal {
+  font-size: 100%;
+}
+.botao-grande{
+  font-size: 140%;
+}
+
+.round {
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  border-radius: .2em;
+}
+#main {
+  margin-top: 10px;
+}

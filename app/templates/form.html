@@ -1,0 +1,249 @@
+<div id="main">
+    <h2 class="sub-header">Novo Cliente</h2>
+
+  <section>
+    <form name="myForm" novalidate class="form-horizontal">
+        <!-- Informações Básicas -->
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+            <div class="form-group">
+              <div class="panel panel-body panel-default">
+                <legend>
+                      <label class="control-label">Informações Básicas</label>
+                </legend>
+                <div class="form-group">
+                  <!-- TIPO DE CLIENTE -->
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" [(ngModel)]="novocliente.tipoCliente" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Tipo de Cliente
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a >Locador</a></li>
+                                        <li><a >Locatário</a></li>
+                                        <li><a >Fiador</a></li>
+                                        <li><a >Outro</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- CPF -->
+                <div class="form-group">
+                    <label for="cpf" class="col-md-4 control-label">CPF</label>
+                    <div class="col-xs-12 col-md-9">
+                      <input type="text" id="cpf" name="cpf" [(ngModel)]="novocliente.cpf" class="form-control has-feedback" required="required" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" />
+                    </div>
+                </div>
+                  <!-- Nome -->
+                <div class="form-group">
+                      <label for="nome" class="col-md-4 control-label">Nome</label>
+                      <div class="col-xs-12 col-md-9 ">
+                        <input type="text" id="nome" [(ngModel)]="novocliente.nome" class="form-control has-feedback" required="required" placeholder="Nome" />
+                      </div>
+                </div>
+                  <!-- Email -->
+                <div class="form-group">
+                      <label for="email" class="col-md-4 control-label">Email</label>
+                      <div class="col-xs-12 col-md-9 ">
+                        <div class="input-group input-group">
+                          <span class="input-group-addon">@</span>
+                          <input type="email" id="email" name="email" [(ngModel)]="novocliente.email" class="form-control has-feedback" required="required" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telefones -->
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+            <div class="form-group">
+                <div class="panel panel-body panel-default">
+                    <legend>
+                        <label class="control-label">Telefones</label>
+                    </legend>
+                    <!-- Tipo de Telefone -->
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <label for="tpTelefone" class="control-label">Telefone:</label>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" [(ngModel)]="novocliente.telefone[0].tipo" type="button" id="tpTelefone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Tipo de Telefone
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <li><a >Residencial</a></li>
+                                    <li><a >Celular</a></li>
+                                    <li><a >Corporativo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-lg-8">
+                            <div class="input-group">
+                                <span class="input-group-addon" ><i class="fa fa-phone fa-fw"></i></span>
+                                <input type="text" id="tel" [(ngModel)]="novocliente.telefone[0].numero" class="form-control" required="required" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- Painel Telefones -->
+            </div>
+        </div><!-- Div Telefones -->
+        </div>
+        <!-- Endereço -->
+        <div class="row">
+            <div class="col-xs-12">
+            <!-- Form Endereço -->
+            <div class="form-group">
+                <div class="panel panel-body panel-default">
+                    <!-- Header -->
+                    <legend>
+                        <label class="control-label">Endere&ccedil;os</label>
+                    </legend>
+                    <!-- Formulario -->
+                    <div class="col-xs-12 col-md-6">
+                        <!-- Tipo de Endereço -->
+                        <div class="form-group">
+                            <label for="tpEndereco" class="control-label">Tipo de Endereço:</label>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" [(ngModel)]="novocliente.endereco[0].tipoEndereco" type="button" id="tpEndereco" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            Tipo de Endereço
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                            <li><a >Residencial</a></li>
+                                            <li><a >Corporativo</a></li>
+                                            <li><a >Outro</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tipo de Imóvel -->
+                        <div class="form-group">
+                            <label for="tpImovel" class="control-label">Tipo de Residência:</label>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" [(ngModel)]="novocliente.endereco[0].tipoImovel" type="button" id="tpImovel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            Tipo do Imóvel
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                                            <li><a >Alugado/Contrato</a></li>
+                                            <li><a >Alugado/Temporada</a></li>
+                                            <li><a >Próprio</a></li>
+                                            <li><a >Parente</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CEP -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="cep">CEP</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="cep" name="cep" type="text" placeholder="CEP" class="form-control" [(ngModel)]="novocliente.endereco[0].cep"  ng-blur="getCEP()" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Rua -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 control-label" for="rua">Rua</label>
+                                <div class="col-xs-12">
+                                    <input id="rua" type="text" placeholder="Rua" class="form-control"  [(ngModel)]="novocliente.endereco[0].rua" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Número -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="numero">N&uacute;mero</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="numero" type="text" placeholder="N&uacute;mero" class="form-control"  [(ngModel)]="novocliente.endereco[0].numero" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Complemento -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="complemento">Complemento</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="complemento" name="complemento" type="text" placeholder="Complemento" class="form-control"  [(ngModel)]="novocliente.endereco[0].complemento">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bairro -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="bairro">Bairro</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="bairro" name="bairro" type="text" placeholder="Bairro" class="form-control"  [(ngModel)]="novocliente.endereco[0].bairro" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cidade -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="cidade">Cidade</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="cidade" name="cidade" type="text" placeholder="Cidade" class="form-control"  [(ngModel)]="novocliente.endereco[0].cidade" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Estado -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="uf">Estado</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="uf" name="uf" type="text" placeholder="Estado" class="form-control"  [(ngModel)]="novocliente.endereco[0].uf" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- País -->
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-xs-12 col-md-2 control-label" for="pais">Pa&iacute;s</label>
+                                <div class="col-xs-12 col-md-10">
+                                    <input id="pais" type="text" placeholder="Pa&iacute;s" class="form-control"  [(ngModel)]="novocliente.endereco[0].pais" required>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </form>
+    <button (click)="addClientes(novocliente); novocliente.value=''">
+      Incluir Cliente
+    </button>
+    <div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+  </section>
+</div>

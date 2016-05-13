@@ -1,0 +1,14 @@
+{
+  "data": [
+    {"id": 1, "name": "Bonbon", "imgLink": "/assets/imagens/macarron.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 2, "name": "Macaron", "imgLink": "/assets/imagens/Pie-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 3, "name": "Canelé", "imgLink": "/assets/imagens/Pretzel-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 4, "name": "Choux", "imgLink": "/assets/imagens/Macaron-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 5, "name": "Éclair", "imgLink": "/assets/imagens/Ice Cream Cone-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 7, "name": "Baba au rhum", "imgLink": "/assets/imagens/Doughnut-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 8, "name": "Mille-feuilles", "imgLink": "/assets/imagens/CupCake-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 9, "name": "Crème Brûlée", "imgLink": "/assets/imagens/Cookies-96.png", "routeLink": "/finder", "isExternal": false},
+    {"id": 10, "name": "Sorbet", "imgLink": "/assets/imagens/Ice Cream Bowl-96.png", "routeLink": "/finder", "isExternal": false}
+  ]
+}
+

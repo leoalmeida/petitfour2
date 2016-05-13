@@ -1,0 +1,57 @@
+ul{ list-style:none; padding:0; margin: 0;}
+
+h1{ margin-top: 3px;}
+
+.caixas {
+    color: #393;
+    background: #dfd;
+    width: auto;
+    overflow: auto;
+}
+
+.caixas li {
+    width: 15.6%;
+    margin: .5%;
+    float: left;
+}
+
+.caixas a {
+    color: #dfd;
+    width: 100%;
+    padding: 15% 0;
+    border-radius: 0.4em;
+    min-height: 2.59em;
+}
+
+/* DEF DE BOTOES COLORIDOS */
+.accesskey{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.has-error{
+    color: #6d001c;
+    background: #ff8698;
+}
+
+/* Tablet */
+@media (min-width:37em) {
+    .caixas li {
+        width: 10.11%;
+        margin: .5%;
+    }
+}
+
+@media (min-width: 41em) {  } /* 656px */
+@media (min-width: 47em) {  } /* 752px */
+
+/* Desktop */
+/* 1088px */
+@media (min-width: 68em) {
+    .caixas li {
+        width: 4.55%;
+        margin: .5%;
+    }
+}
+@media (min-width: 82em) {  } /* 1312px */
+@media (min-width: 100em) {  } /* 1600px */

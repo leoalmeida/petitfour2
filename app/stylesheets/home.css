@@ -1,0 +1,68 @@
+/* Main body */
+
+.form-search{
+    position: fixed;
+    right: 100px;
+    top: 20px;
+    z-index: 3000;
+
+}
+
+.main{
+    position: relative; /* needed for footer positioning*/
+    height: auto !important; /* real browsers */
+    min-height: 100%; /* real browsers */
+    padding: 0;
+}
+
+ul{ list-style:none; padding:0; margin: 0;}
+
+.caixas {
+    color: #393;
+    background: #dfd;
+    width: auto;
+    overflow: auto;
+}
+
+.caixas li {
+    width: 32%;
+    margin: 0.6666667%;
+    float: left;
+}
+
+.caixas a {
+    color: rgb(84, 24, 5);
+    width: 100%;
+    padding: 15% 0;
+    border-radius: 0.4em;
+}
+
+/* DEF DE BOTOES COLORIDOS */
+.accesskey{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Tablet */
+@media (min-width:37em) {
+
+    .caixas li {
+        width: 24.5%;
+        margin: 0.25%;
+    }
+
+}
+
+@media (min-width: 41em) {  } /* 656px */
+@media (min-width: 47em) {  } /* 752px */
+
+/* Desktop */
+/* 1088px */
+@media (min-width: 68em) {
+    .caixas li {
+        width: 19.7%;
+        margin: 0.1%;
+    }
+}
+@media (min-width: 82em) {  } /* 1312px */
+@media (min-width: 100em) {  } /* 1600px */

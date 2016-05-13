@@ -1,0 +1,16 @@
+nav{
+    display: block;
+    height: 35px;
+}
+
+img {
+    max-height: 96px;
+}
+.navbar-text {
+    display: none;
+    margin: 0;
+}
+
+@media (min-width:25em) {
+    .navbar-text { display: inline-block; }
+}
