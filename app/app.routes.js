@@ -29,4 +29,5 @@ System.register(['./components/home.component', "./components/finder.component"]
  { path: '/link/facebook',name:"Facebook", component: LinksComponent, imgSrc:"/assets/imagens/Facebook-96.png", extLink:"http://www.facebook.com"},
  { path: '/link/chrome',name:"Chrome", component: LinksComponent, imgSrc:"/assets/imagens/Chrome-96.png", extLink:"https://www.google.com/chrome/"}
 * */ 
+
 //# sourceMappingURL=app.routes.js.map

@@ -3,12 +3,15 @@
  */
 import {Component, OnInit, EventEmitter, Output} from '@angular/core';
 import {CORE_DIRECTIVES} from '@angular/common';
+import {Router, RouteSegment} from '@angular/router';
 import {VerbsService} from "../services/verbs.service";
 import {
     VerbDefinition, PronomDefinition, VerbTenseDefinition,
     LetterBoxDefinition
 } from "../models/verb.model";
+import {GameDefinition} from "../models/game.model"
 import { JSONP_PROVIDERS }  from '@angular/http';
+import {MenuService} from "../services/menu.service";
 
 @Component({
     selector: 'finder-form',
@@ -18,7 +21,9 @@ import { JSONP_PROVIDERS }  from '@angular/http';
     providers:  [JSONP_PROVIDERS, VerbsService]
 })
 export class FinderGameComponent implements OnInit {
-    private static BOARD_SIZE: number = 18;
+    game: GameDefinition;
+
+
     errorMessage: string;
     respostaErrada: boolean;
     faseCompleta: boolean;
@@ -29,7 +34,6 @@ export class FinderGameComponent implements OnInit {
 
     randomPronom: number;
     randomTense: number;
-    dificuldade: number;
     randomPronomText: any;
 
     @Output() close: EventEmitter<string>;
@@ -37,13 +41,28 @@ export class FinderGameComponent implements OnInit {
     caixasResposta: LetterBoxDefinition;
 
 
-    constructor (private verbsService: VerbsService) {
+    constructor (private verbsService: VerbsService, private router: Router, private menuService: MenuService) {
         this.perfilRespostas = VerbDefinition.newVerb();
         this.caixasResposta = LetterBoxDefinition.newLetterBox();
         this.respostaErrada = false;
         this.faseCompleta = false;
-        this.dificuldade = 1;
         this.close = new EventEmitter<string>();
+    }
+
+    routerOnActivate(curr: RouteSegment): void {
+        let id = +curr.getParam('gameID');
+        this.menuService.getAllMenuItems()
+            .subscribe(menuList => menuList.forEach((item, index) => {
+                            if(item.id === id) {
+                                this.game = item;
+                            }
+                        }),
+                        error =>  this.errorMessage = <any>error);
+
+    }
+
+    gotoMenu() {
+        this.router.navigate(['/home']);
     }
 
     rightanswer() {
@@ -67,10 +86,11 @@ export class FinderGameComponent implements OnInit {
     getRandomVerb() {
 
         this.randomVerb = this.verbs[Math.floor(Math.random() * this.verbs.length)];
-        this.randomTense = Math.floor(Math.random() * this.dificuldade);
+        this.randomTense = Math.floor(Math.random() * this.game.difficult);
         this.randomPronom = Math.floor(Math.random() * this.randomVerb.temps[this.randomTense].inflections.length);
         this.randomPronomText = this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].pronom;
 
+        this.perfilRespostas = VerbDefinition.newVerb();
         this.perfilRespostas.verbe = FinderGameComponent.toCamel(this.randomVerb.verbe);
         this.perfilRespostas.translationPT = this.randomVerb.translationPT;
         this.perfilRespostas.temps[this.randomTense].inflection = this.randomVerb.temps[this.randomTense].inflection;
@@ -82,6 +102,7 @@ export class FinderGameComponent implements OnInit {
         );
         this.faseCompleta = false;
     }
+
     getNextVerb(pronom:number) {
         if (this.perfilRespostas.temps[this.randomTense].inflections[pronom].verbe == "") {
             this.caixasResposta = new LetterBoxDefinition(
@@ -91,7 +112,7 @@ export class FinderGameComponent implements OnInit {
             this.faseCompleta = false;
             this.respostaErrada = false;
             this.randomPronom = pronom;
-            this.randomPronomText = this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom;
+            this.randomPronomText = FinderGameComponent.toCamel(this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom);
         }
     }
 
@@ -100,7 +121,7 @@ export class FinderGameComponent implements OnInit {
 
         var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZÂÀÉÈÊÎÔÛÇ";
 
-        for( var i=text.length; i < FinderGameComponent.BOARD_SIZE; i++ )
+        for( var i=text.length; i < this.game.boardSize; i++ )
             text.push(possible.charAt(Math.floor(Math.random() * possible.length)));
 
         return this.shuffle(text);

@@ -61,12 +61,13 @@ System.register(['@angular/core', "@angular/common", "@angular/router", '@angula
                     this.service.getAllItems("menu")
                         .subscribe(function (menuItems) { return _this.list = menuItems; }, function (error) { return _this.errorMessage = error; });
                 };
-                HomeComponent.prototype.onSelect = function (item) {
-                    if (Boolean(item.isExternal)) {
-                        this.goExternal(item.routeLink);
+                HomeComponent.prototype.onSelect = function (game) {
+                    var teste = true;
+                    if (teste) {
+                        this.goExternal(game.routeLink);
                     }
                     else {
-                        this.router.navigate([("./" + item.routeLink)], this.currSegment);
+                        this.router.navigate([("./" + game.routeLink)], this.currSegment);
                     }
                 };
                 HomeComponent.prototype.ngOnInit = function () {
@@ -89,4 +90,5 @@ System.register(['@angular/core', "@angular/common", "@angular/router", '@angula
         }
     }
 });
+
 //# sourceMappingURL=home.component.js.map

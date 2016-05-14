@@ -1,29 +1,30 @@
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var ItemDefinition;
+    var GameDefinition;
     return {
         setters:[],
         execute: function() {
             /**
              * Created by LeonardoAlmeida on 02/05/16.
              */
-            ItemDefinition = (function () {
-                function ItemDefinition(id, name, imgLink, routeLink, isExternal) {
+            GameDefinition = (function () {
+                function GameDefinition(id, name, imgLink, routeLink, boardSize, difficult) {
                     this.id = id;
                     this.name = name;
                     this.imgLink = imgLink;
                     this.routeLink = routeLink;
-                    this.isExternal = isExternal;
+                    this.boardSize = boardSize;
+                    this.difficult = difficult;
                 }
-                ItemDefinition.prototype.filter = function (list, filterOption) {
+                GameDefinition.prototype.filter = function (list, filterOption) {
                     return list;
                 };
-                ItemDefinition.qtItens = 0;
-                return ItemDefinition;
+                return GameDefinition;
             }());
-            exports_1("ItemDefinition", ItemDefinition);
+            exports_1("GameDefinition", GameDefinition);
         }
     }
 });
-//# sourceMappingURL=item.model.js.map
+
+//# sourceMappingURL=game.model.js.map

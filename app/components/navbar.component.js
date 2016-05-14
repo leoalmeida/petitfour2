@@ -24,6 +24,9 @@ System.register(['@angular/core', '@angular/common'], function(exports_1, contex
             NavbarComponent = (function () {
                 function NavbarComponent() {
                 }
+                NavbarComponent.prototype.contructor = function (params) {
+                    this.pageText = "- " + params.get('gameID');
+                };
                 NavbarComponent = __decorate([
                     core_1.Component({
                         selector: 'navbar',
@@ -40,4 +43,5 @@ System.register(['@angular/core', '@angular/common'], function(exports_1, contex
         }
     }
 });
+
 //# sourceMappingURL=navbar.component.js.map

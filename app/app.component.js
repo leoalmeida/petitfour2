@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/router', "./components/navbar.component", "./services/logger.service", "./components/finder.component", "./components/finderForm.component"], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/router', "./components/navbar.component", "./components/finder.component", "./components/finderForm.component", "./components/finderGame.component", "./services/menu.service"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', '@angular/router', "./components/navbar.compon
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, navbar_component_1, logger_service_1, finder_component_1, finderForm_component_1;
+    var core_1, router_1, navbar_component_1, finder_component_1, finderForm_component_1, finderGame_component_1, menu_service_1;
     var AppComponent;
     return {
         setters:[
@@ -23,38 +23,39 @@ System.register(['@angular/core', '@angular/router', "./components/navbar.compon
             function (navbar_component_1_1) {
                 navbar_component_1 = navbar_component_1_1;
             },
-            function (logger_service_1_1) {
-                logger_service_1 = logger_service_1_1;
-            },
             function (finder_component_1_1) {
                 finder_component_1 = finder_component_1_1;
             },
             function (finderForm_component_1_1) {
                 finderForm_component_1 = finderForm_component_1_1;
+            },
+            function (finderGame_component_1_1) {
+                finderGame_component_1 = finderGame_component_1_1;
+            },
+            function (menu_service_1_1) {
+                menu_service_1 = menu_service_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
-                function AppComponent(router, logger) {
+                function AppComponent(router) {
                     this.router = router;
-                    this.logger = logger;
                 }
                 AppComponent.prototype.ngOnInit = function () {
-                    this.router.navigate(['/finder']);
-                };
-                AppComponent.prototype.routerOnActivate = function (curr) {
-                    this.curSegment = curr;
+                    this.router.navigate(['/home']);
                 };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'main-app',
                         templateUrl: 'app/templates/app.html',
-                        directives: [router_1.ROUTER_DIRECTIVES, navbar_component_1.NavbarComponent]
+                        directives: [router_1.ROUTER_DIRECTIVES, navbar_component_1.NavbarComponent],
+                        providers: [menu_service_1.MenuService]
                     }),
                     router_1.Routes([
-                        { path: '/finder', component: finder_component_1.FinderComponent },
-                        { path: '/verbos', component: finderForm_component_1.FinderFormComponent }
+                        { path: '/home', component: finder_component_1.FinderComponent },
+                        { path: '/jeux/:gameID', component: finderGame_component_1.FinderGameComponent },
+                        { path: '/administrateur', component: finderForm_component_1.FinderFormComponent }
                     ]), 
-                    __metadata('design:paramtypes', [router_1.Router, logger_service_1.LoggerService])
+                    __metadata('design:paramtypes', [router_1.Router])
                 ], AppComponent);
                 return AppComponent;
             }());
@@ -62,4 +63,5 @@ System.register(['@angular/core', '@angular/router', "./components/navbar.compon
         }
     }
 });
+
 //# sourceMappingURL=app.component.js.map

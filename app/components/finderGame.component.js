@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/common', "../services/verbs.service", "../models/verb.model", '@angular/http'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/common', '@angular/router', "../services/verbs.service", "../models/verb.model", '@angular/http', "../services/menu.service"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, verbs_service_1, verb_model_1, http_1;
+    var core_1, common_1, router_1, verbs_service_1, verb_model_1, http_1, menu_service_1;
     var FinderGameComponent;
     return {
         setters:[
@@ -20,6 +20,9 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
             function (common_1_1) {
                 common_1 = common_1_1;
             },
+            function (router_1_1) {
+                router_1 = router_1_1;
+            },
             function (verbs_service_1_1) {
                 verbs_service_1 = verbs_service_1_1;
             },
@@ -28,18 +31,35 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
             },
             function (http_1_1) {
                 http_1 = http_1_1;
+            },
+            function (menu_service_1_1) {
+                menu_service_1 = menu_service_1_1;
             }],
         execute: function() {
             FinderGameComponent = (function () {
-                function FinderGameComponent(verbsService) {
+                function FinderGameComponent(verbsService, router, menuService) {
                     this.verbsService = verbsService;
+                    this.router = router;
+                    this.menuService = menuService;
                     this.perfilRespostas = verb_model_1.VerbDefinition.newVerb();
                     this.caixasResposta = verb_model_1.LetterBoxDefinition.newLetterBox();
                     this.respostaErrada = false;
                     this.faseCompleta = false;
-                    this.dificuldade = 1;
                     this.close = new core_1.EventEmitter();
                 }
+                FinderGameComponent.prototype.routerOnActivate = function (curr) {
+                    var _this = this;
+                    var id = +curr.getParam('gameID');
+                    this.menuService.getAllMenuItems()
+                        .subscribe(function (menuList) { return menuList.forEach(function (item, index) {
+                        if (item.id === id) {
+                            _this.game = item;
+                        }
+                    }); }, function (error) { return _this.errorMessage = error; });
+                };
+                FinderGameComponent.prototype.gotoMenu = function () {
+                    this.router.navigate(['/home']);
+                };
                 FinderGameComponent.prototype.rightanswer = function () {
                     return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe === this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].verbe);
                 };
@@ -56,9 +76,10 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
                 };
                 FinderGameComponent.prototype.getRandomVerb = function () {
                     this.randomVerb = this.verbs[Math.floor(Math.random() * this.verbs.length)];
-                    this.randomTense = Math.floor(Math.random() * this.dificuldade);
+                    this.randomTense = Math.floor(Math.random() * this.game.difficult);
                     this.randomPronom = Math.floor(Math.random() * this.randomVerb.temps[this.randomTense].inflections.length);
                     this.randomPronomText = this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].pronom;
+                    this.perfilRespostas = verb_model_1.VerbDefinition.newVerb();
                     this.perfilRespostas.verbe = FinderGameComponent.toCamel(this.randomVerb.verbe);
                     this.perfilRespostas.translationPT = this.randomVerb.translationPT;
                     this.perfilRespostas.temps[this.randomTense].inflection = this.randomVerb.temps[this.randomTense].inflection;
@@ -72,13 +93,13 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
                         this.faseCompleta = false;
                         this.respostaErrada = false;
                         this.randomPronom = pronom;
-                        this.randomPronomText = this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom;
+                        this.randomPronomText = FinderGameComponent.toCamel(this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom);
                     }
                 };
                 FinderGameComponent.prototype.generateRandomLetters = function (verb) {
                     var text = verb.toUpperCase().split('');
                     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZÂÀÉÈÊÎÔÛÇ";
-                    for (var i = text.length; i < FinderGameComponent.BOARD_SIZE; i++)
+                    for (var i = text.length; i < this.game.boardSize; i++)
                         text.push(possible.charAt(Math.floor(Math.random() * possible.length)));
                     return this.shuffle(text);
                 };
@@ -138,7 +159,6 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
                 FinderGameComponent.toCamel = function (verbo) {
                     return verbo.replace(/(\-[a-z])/g, function ($1) { return $1.toUpperCase().replace('-', ''); });
                 };
-                FinderGameComponent.BOARD_SIZE = 18;
                 __decorate([
                     core_1.Output(), 
                     __metadata('design:type', core_1.EventEmitter)
@@ -151,7 +171,7 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
                         directives: [common_1.CORE_DIRECTIVES],
                         providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService]
                     }), 
-                    __metadata('design:paramtypes', [verbs_service_1.VerbsService])
+                    __metadata('design:paramtypes', [verbs_service_1.VerbsService, router_1.Router, menu_service_1.MenuService])
                 ], FinderGameComponent);
                 return FinderGameComponent;
             }());
@@ -159,4 +179,5 @@ System.register(['@angular/core', '@angular/common', "../services/verbs.service"
         }
     }
 });
+
 //# sourceMappingURL=finderGame.component.js.map

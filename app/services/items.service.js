@@ -60,4 +60,5 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
         }
     }
 });
+
 //# sourceMappingURL=items.service.js.map

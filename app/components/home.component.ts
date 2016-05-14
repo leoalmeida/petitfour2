@@ -2,7 +2,7 @@
  * Created by LeonardoAlmeida on 02/05/16.
  */
 import {Component, Input, OnInit} from '@angular/core';
-import {ItemDefinition} from "../models/item.model";
+import {GameDefinition} from "../models/game.model";
 import {CORE_DIRECTIVES, FORM_DIRECTIVES, Control} from "@angular/common";
 import {Router, RouteSegment, RouteTree, OnActivate} from "@angular/router";
 import { JSONP_PROVIDERS }  from '@angular/http';
@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit, OnActivate{
 
     constructor(private service: ItemsService, private router: Router) {}
 
-    list: ItemDefinition[];
+    list: GameDefinition[];
     private currSegment: RouteSegment;
     private selectedId: number;
     showSearch: boolean = false;
@@ -59,11 +59,12 @@ export class HomeComponent implements OnInit, OnActivate{
                 error =>  this.errorMessage = <any>error);
     }
 
-    onSelect(item: ItemDefinition) {
-        if (Boolean(item.isExternal)){
-            this.goExternal(item.routeLink);
+    onSelect(game: GameDefinition) {
+        let teste: boolean = true;
+        if (teste){
+            this.goExternal(game.routeLink);
         }else{
-            this.router.navigate([`./${item.routeLink}`], this.currSegment);
+            this.router.navigate([`./${game.routeLink}`], this.currSegment);
         }
     }
 

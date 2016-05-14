@@ -1,3 +1,7 @@
+body{
+  padding-top: 50px;
+}
+
 .navbar-text,.navbar-form {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -22,16 +26,7 @@
   height: 32px;
 }
 
-
-.fixed-btn-menu{
-  position: fixed;
-  right: 30px;
-  top: 20px;
-  z-index: 3000;
-}
-
-
-.botao {
+.botao-icon {
   display:inline-block;
   padding: 1.25em 1.25em;
   text-decoration: none;
@@ -39,9 +34,25 @@
   border: 0;
 }
 
+.botao {
+  display:inline-block;
+  width: 4em;
+  padding: 1.25em 0em;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 0;
+}
+
 .botao:hover {
   background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
   cursor: pointer;
+}
+
+.botao-circle {
+  border-radius: 50%;
 }
 
 .botao-default {
@@ -90,4 +101,14 @@
 }
 #main {
   margin-top: 10px;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  background: #f4f4f4 url(../imagens/grid_DominikKiss_SubtlePatterns.jpg);
+  font-weight: 300;
+  font-size: 15px;
+  color: #333;
+  overflow: scroll;
+  overflow-x: hidden;
 }

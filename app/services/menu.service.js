@@ -31,13 +31,19 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
             MenuService = (function () {
                 function MenuService(http) {
                     this.http = http;
-                    this.munuItemsUrl = 'data/menuitems.json'; // URL to web api
+                    this.munuItemsUrl = 'app/data/menu.json'; // URL to web api
                 }
                 MenuService.prototype.getAllMenuItems = function () {
                     return this.http.get(this.munuItemsUrl)
                         .map(this.extractData)
                         .catch(this.handleError);
                 };
+                /*getMenuItem(id: number): Observable<GameDefinition> {
+                    this.filterID = id;
+                    return this.http.get(this.munuItemsUrl)
+                                                    .map(this.extractData)
+                                                    .catch(this.handleError);
+                }*/
                 MenuService.prototype.extractData = function (res) {
                     if (res.status < 200 || res.status >= 300) {
                         throw new Error('Bad response status: ' + res.status);
@@ -62,4 +68,5 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
         }
     }
 });
+
 //# sourceMappingURL=menu.service.js.map

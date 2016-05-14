@@ -10,7 +10,6 @@ $font-size-base: 13px;
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5977,6 +5976,9 @@ button.close {
   font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Regular-webfont.eot svg ttf woff") format("eot svg ttf woff"); }
 
+body {
+  padding-top: 50px; }
+
 .navbar-text, .navbar-form {
   padding-top: 5px;
   padding-bottom: 5px; }
@@ -5996,22 +5998,30 @@ button.close {
   padding: 2px 15px;
   height: 32px; }
 
-.fixed-btn-menu {
-  position: fixed;
-  right: 30px;
-  top: 20px;
-  z-index: 3000; }
-
-.botao {
+.botao-icon {
   display: inline-block;
   padding: 1.25em 1.25em;
   text-decoration: none;
   font-size: 1em;
   border: 0; }
 
+.botao {
+  display: inline-block;
+  width: 4em;
+  padding: 1.25em 0em;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 0; }
+
 .botao:hover {
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
   cursor: pointer; }
+
+.botao-circle {
+  border-radius: 50%; }
 
 .botao-default {
   color: #000;
@@ -6052,6 +6062,15 @@ button.close {
 
 #main {
   margin-top: 10px; }
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  background: #f4f4f4 url(../imagens/grid_DominikKiss_SubtlePatterns.jpg);
+  font-weight: 300;
+  font-size: 15px;
+  color: #333;
+  overflow: scroll;
+  overflow-x: hidden; }
 
 .center-fix {
   position: fixed;

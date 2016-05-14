@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ItemDefinition } from "../models/item.model";
+import { GameDefinition } from "../models/game.model";
 import { Http, URLSearchParams, Response } from '@angular/http';
 import { Observable }     from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
@@ -12,7 +12,7 @@ export class ItemsService {
 
     constructor(private http: Http) {}
 
-    getAllItems(definition: string): Observable<ItemDefinition[]> {
+    getAllItems(definition: string): Observable<GameDefinition[]> {
 
         let itemsUrl = 'app/data/'+ definition +'.json';
 

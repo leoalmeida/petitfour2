@@ -90,4 +90,5 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
         }
     }
 });
+
 //# sourceMappingURL=verbs.service.js.map

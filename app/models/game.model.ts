@@ -1,18 +1,17 @@
 /**
  * Created by LeonardoAlmeida on 02/05/16.
  */
-export class ItemDefinition {
-
-    static qtItens: number = 0;
+export class GameDefinition {
 
     constructor(
         public id: number,
         public name: string,
         public imgLink: string,
         public routeLink: string,
-        public isExternal: boolean){}
+        public boardSize: number,
+        public difficult: number){}
 
-    filter(list: ItemDefinition[], filterOption: string){
+    filter(list: GameDefinition[], filterOption: string){
         return list;
     }
 
