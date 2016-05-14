@@ -1,7 +1,7 @@
-System.register(['@angular/platform-browser-dynamic', '@angular/router', '@angular/http', './app.component', './services/logger.service', 'rxjs/Rx'], function(exports_1, context_1) {
+System.register(['@angular/platform-browser-dynamic', '@angular/router', '@angular/http', './app.component', 'rxjs/Rx'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var platform_browser_dynamic_1, router_1, http_1, app_component_1, logger_service_1;
+    var platform_browser_dynamic_1, router_1, http_1, app_component_1;
     return {
         setters:[
             function (platform_browser_dynamic_1_1) {
@@ -16,12 +16,9 @@ System.register(['@angular/platform-browser-dynamic', '@angular/router', '@angul
             function (app_component_1_1) {
                 app_component_1 = app_component_1_1;
             },
-            function (logger_service_1_1) {
-                logger_service_1 = logger_service_1_1;
-            },
             function (_1) {}],
         execute: function() {
-            platform_browser_dynamic_1.bootstrap(app_component_1.AppComponent, [logger_service_1.LoggerService, router_1.ROUTER_PROVIDERS, http_1.HTTP_PROVIDERS]);
+            platform_browser_dynamic_1.bootstrap(app_component_1.AppComponent, [router_1.ROUTER_PROVIDERS, http_1.HTTP_PROVIDERS]);
         }
     }
 });
