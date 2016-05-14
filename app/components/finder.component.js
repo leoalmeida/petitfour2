@@ -61,5 +61,4 @@ System.register(['@angular/core', '@angular/router', "./finderGame.component", "
         }
     }
 });
-
 //# sourceMappingURL=finder.component.js.map

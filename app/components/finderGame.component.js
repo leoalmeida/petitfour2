@@ -179,5 +179,4 @@ System.register(['@angular/core', '@angular/common', '@angular/router', "../serv
         }
     }
 });
-
 //# sourceMappingURL=finderGame.component.js.map
