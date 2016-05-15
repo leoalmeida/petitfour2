@@ -23,13 +23,37 @@ exitWithMessageOnError () {
 hash node 2>/dev/null
 exitWithMessageOnError "Missing node.js executable, please install node.js, if already installed make sure it can be reached from current environment."
 
+
+# Verify that we have access to tar
+hash tar 2> /dev/null
+exitWithMessageOnError "Missing tar. I figured as much."
+
+
 # Setup
 # -----
+
+echo Copy assets to $DEPLOYMENT_TEMP for build
+tar cf - --exclude=node_modules --exclude=bower_components --exclude=dist --exclude=tmp --exclude=.git . | (cd $DEPLOYMENT_TEMP && tar xvf - )
+exitWithMessageOnError "Failed to create and extract tarball"
+
+echo Switch to the temp directory
+cd $DEPLOYMENT_TEMP
+
+if [[ -d node_modules ]]; then
+  echo Removing node_modules folder
+  rm -Rf node_modules
+  exitWithMessageOnError "node_modules removal failed"
+fi
+
 
 SCRIPT_DIR="${BASH_SOURCE[0]%\\*}"
 SCRIPT_DIR="${SCRIPT_DIR%/*}"
 ARTIFACTS=$SCRIPT_DIR/../artifacts
 KUDU_SYNC_CMD=${KUDU_SYNC_CMD//\"}
+
+NODE_EXE="$PROGRAMFILES\\nodejs\\5.6.0\\node.exe"
+NPM_CMD="\"$NODE_EXE\" \"$PROGRAMFILES\\npm\\3.6.0\\node_modules\\npm\\bin\\npm-cli.js\""
+NODE_MODULES_DIR="$APPDATA\\npm\\node_modules"
 
 if [[ ! -n "$DEPLOYMENT_SOURCE" ]]; then
   DEPLOYMENT_SOURCE=$SCRIPT_DIR
@@ -67,7 +91,7 @@ fi
 # Node Helpers
 # ------------
 
-selectNodeVersion () {
+
   if [[ -n "$KUDU_SELECT_NODE_VERSION_CMD" ]]; then
     SELECT_NODE_VERSION="$KUDU_SELECT_NODE_VERSION_CMD \"$DEPLOYMENT_SOURCE/nodejs\" \"$DEPLOYMENT_TARGET\" \"$DEPLOYMENT_TEMP\""
     eval $SELECT_NODE_VERSION
@@ -92,11 +116,33 @@ selectNodeVersion () {
     NPM_CMD=npm
     NODE_EXE=node
   fi
-}
+
+
+##################################################################################################################################
+# Build
+# -----
+
+echo Cleaning Cache
+eval $NPM_CMD cache clean
+exitWithMessageOnError "npm cache cleaning failed"
+
+echo Installing npm modules
+eval $NPM_CMD install --no-optional --no-bin-links
+exitWithMessageOnError "npm install failed"
+
+echo Copy web.config to the dist folder
+cp web.config dist\
 
 ##################################################################################################################################
 # Deployment
 # ----------
+
+:: 6. Run gulp transformations
+
+if [[ ! -n "$DEPLOYMENT_SOURCE\gulpfile.js" ]]; then
+  eval $NODE_MODULES_DIR\.bin\gulp serve
+  exitWithMessageOnError "gulp exec failed"
+fi
 
 echo Handling node.js deployment.
 
@@ -104,17 +150,6 @@ echo Handling node.js deployment.
 if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
   "$KUDU_SYNC_CMD" -v 50 -f "$DEPLOYMENT_SOURCE/nodejs" -t "$DEPLOYMENT_TARGET" -n "$NEXT_MANIFEST_PATH" -p "$PREVIOUS_MANIFEST_PATH" -i ".git;.hg;.deployment;deploy.sh"
   exitWithMessageOnError "Kudu Sync failed"
-fi
-
-# 2. Select node version
-selectNodeVersion
-
-# 3. Install npm packages
-if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
-  cd "$DEPLOYMENT_TARGET"
-  eval $NPM_CMD install --production
-  exitWithMessageOnError "npm failed"
-  cd - > /dev/null
 fi
 
 ##################################################################################################################################
