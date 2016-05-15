@@ -2,6 +2,8 @@
 // It will not be available on production
 
 (function(global) {
+    // ENV
+    global.ENV = 'development'
 
     // wildcard paths
     var paths = {

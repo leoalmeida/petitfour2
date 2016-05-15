@@ -8,7 +8,7 @@ var fs = require('fs');
 gulp.task('set-theme', function () {
     var theme = argv.name;
     if (!theme) {
-      console.log('ERROR: set-theme needs name argument like --name=paper');
+        console.log('ERROR: set-theme needs name argument like --name=paper');
     } else {
         var p = 'node_modules/bootswatch/';
         try {
@@ -31,7 +31,7 @@ gulp.task('sass', function () {
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(config.assetsPath.styles));
 });
- 
+
 gulp.task('watch-sass', function () {
     gulp.watch(config.assetsPath.styles + '**/*.scss', ['sass']);
 });

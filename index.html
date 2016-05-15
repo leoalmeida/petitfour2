@@ -20,23 +20,26 @@
         </div>
     </main-app>
 
-    <!-- build:js assets/bundle.js -->
-    <!-- bower:js -->
+    <!-- build:js assets/lib.js -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-    <!-- endinject -->
 
+    <!-- 1. Load libraries -->
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
-    <script src="node_modules/systemjs/dist/system.js"></script>
+
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
     <!-- endbuild -->
 
+    <!-- build:js assets/app.js -->
+    <script src="tmp/app/bundle.js"></script>
+    <!-- endbuild -->
 
     <!-- build:remove -->
+    <script src="node_modules/systemjs/dist/system.js"></script>
     <script src="systemjs.conf.js"></script>
-    <!-- endbuild -->
+
     <script src="assets/scripts/angular2-indexeddb.min.js"></script>
     <script src="assets/scripts/modernizr.custom.63321.js"></script>
 
