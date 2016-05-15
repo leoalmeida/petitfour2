@@ -24,13 +24,13 @@ module.exports = function () {
         helper: [testHelper + '**/*.ts']
     };
     var build = {
-        favicon: 'build/favicon.png',
-        path: 'build/',
-        app: 'build/app/',
-        fonts: 'build/fonts',
-        images: 'build/assets/imagens',
-        imgHD: 'build/assets/imgHD',
-        assetPath: 'build/assets/',
+        favicon: 'dist/favicon.png',
+        path: 'dist/',
+        app: 'dist/app/',
+        fonts: 'dist/fonts',
+        images: 'dist/assets/imagens',
+        imgHD: 'dist/assets/imgHD',
+        assetPath: 'dist/assets/',
         assets: {
             lib: {
                 js: 'lib.js',
