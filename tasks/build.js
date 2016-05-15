@@ -58,11 +58,6 @@ gulp.task('build-assets', function (done) {
             base: config.assetsPath.scripts
         }).pipe(gulp.dest(config.build.assetPath));
 
-        gulp.src(config.app + '**/*-data.ts', {
-                base: config.app
-            })
-            .pipe(gulp.dest(config.build.app));
-
         return gulp.src(config.index)
             .pipe(useref())
             .pipe(gulpif('*.js', uglify()))

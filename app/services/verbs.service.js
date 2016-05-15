@@ -34,7 +34,7 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
                     this.http = http;
                     //private verbsUrl = 'app/data/verbs';  // URL to web api
                     //private randomVerbsUrl = 'verbs';  // URL to web api
-                    this.verbsUrl = 'app/data/verbs-teste.json'; // JSON
+                    this.verbsUrl = 'app/data/verbs.json'; // JSON
                     /*this.db = new AngularIndexedDB('verbsDb', 1);
                     this.db.createStore(1, (evt) => {
                         let objectStore = evt.currentTarget.result.createObjectStore(
@@ -90,4 +90,5 @@ System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/
         }
     }
 });
+
 //# sourceMappingURL=verbs.service.js.map

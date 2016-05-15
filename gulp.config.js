@@ -1,4 +1,5 @@
 var historyApiFallback = require('connect-history-api-fallback')
+var connectLogger = require("connect-logger");
 
 module.exports = function () {
     var root = '';
@@ -46,7 +47,7 @@ module.exports = function () {
             port: 3000,
             server: {
                 baseDir: './',
-                middleware: [historyApiFallback()]
+                middleware: [connectLogger(), historyApiFallback()]
             },
             files: [
                 "index.html",
@@ -57,10 +58,16 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: process.env.port,
+            port: 3001,
             server: {
                 baseDir: './' + build.path,
-                middleware: [historyApiFallback()]
+                middleware: [connectLogger(), historyApiFallback()]
+            }
+        },
+        production: {
+            server: {
+                baseDir: "./" + build.path,
+                middleware: [connectLogger(), historyApiFallback()]
             }
         }
     };

@@ -1,4 +1,4 @@
-<html>
+<html manifest="pettitfour.appcache">
   <head>
     <title>Trabalho Final DWMP</title>
       <base href="/" />
@@ -26,12 +26,13 @@
     <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <!-- endinject -->
 
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-<!-- endbuild -->
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <!-- endbuild -->
+
 
     <!-- build:remove -->
     <script src="systemjs.conf.js"></script>

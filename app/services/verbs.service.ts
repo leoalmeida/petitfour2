@@ -7,7 +7,6 @@ import 'rxjs/add/operator/do';  // debug
 import 'rxjs/add/operator/catch';
 
 import {VerbDefinition} from "../models/verb.model";
-import {GenerateObservable} from "rxjs/observable/GenerateObservable";
 import {AngularIndexedDB} from './AngularIndexedDB.service';
 
 @Injectable()
@@ -28,7 +27,7 @@ export class VerbsService {
 
     //private verbsUrl = 'app/data/verbs';  // URL to web api
     //private randomVerbsUrl = 'verbs';  // URL to web api
-    private verbsUrl = 'app/data/verbs-teste.json';  // JSON
+    private verbsUrl = 'app/data/verbs.json';  // JSON
 
     getVerbs(): Observable<VerbDefinition[]>{
         /*this.db.getAll('verbs').then((verbs) => {

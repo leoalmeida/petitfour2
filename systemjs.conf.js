@@ -5,7 +5,8 @@
 
     // wildcard paths
     var paths = {
-        'n:*': 'node_modules/*'
+        'n:*': 'node_modules/*',
+        's:*': 'scripts/*'
     };
 
     // map tells the System loader where to look for things
@@ -13,8 +14,9 @@
         'app': 'app',
         'rxjs': 'n:rxjs',
         'lodash': 'n:lodash',
-        'symbol-observable': 'n:symbol-observable'
-        '@angular': 'n:@angular'
+        'symbol-observable': 'n:symbol-observable',
+        '@angular': 'n:@angular',
+        'angular2-indexeddb': 's:angular2-indexeddb'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
