@@ -57,7 +57,7 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: 3001,
+            port: process.env.port,
             server: {
                 baseDir: './' + build.path,
                 middleware: [historyApiFallback()]

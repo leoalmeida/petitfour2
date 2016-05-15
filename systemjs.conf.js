@@ -5,8 +5,7 @@
 
     // wildcard paths
     var paths = {
-        'n:*': 'node_modules/*',
-        's:*': 'scripts/*'
+        'n:*': 'node_modules/*'
     };
 
     // map tells the System loader where to look for things
@@ -14,18 +13,15 @@
         'app': 'app',
         'rxjs': 'n:rxjs',
         'lodash': 'n:lodash',
-        'symbol-observable': 'n:symbol-observable',
-        'angular2-in-memory-web-api': 'n:angular2-in-memory-web-api',
-        '@angular': 'n:@angular',
-        'angular2-indexeddb': 's:angular2-indexeddb'
+        'symbol-observable': 'n:symbol-observable'
+        '@angular': 'n:@angular'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
     var packages = {
         'app': {main: 'main.js', defaultExtension: 'js'},
         'rxjs': {defaultExtension: 'js'},
-        'symbol-observable':{main: 'index.js', defaultExtension: 'js'},
-        'angular2-in-memory-web-api': { defaultExtension: 'js' }
+        'symbol-observable':{main: 'index.js', defaultExtension: 'js'}
     };
 
     var packageNames = [
