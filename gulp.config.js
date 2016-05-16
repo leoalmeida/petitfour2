@@ -45,7 +45,7 @@ module.exports = function () {
     };
     var browserSync = {
         dev: {
-            port: 3000,
+            port: process.env.PORT || 3000,
             server: {
                 baseDir: './',
                 middleware: [connectLogger(), historyApiFallback()]
@@ -60,7 +60,7 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: 3001,
+            port: process.env.PORT || 3001,
             server: {
                 baseDir: './' + build.path,
                 middleware: [connectLogger(), historyApiFallback()]
