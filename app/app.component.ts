@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Routes, ROUTER_DIRECTIVES, Router, OnActivate, RouteSegment, Route} from '@angular/router';
+import {Routes, ROUTER_DIRECTIVES, Router} from '@angular/router';
 import {NavbarComponent} from "./components/navbar.component";
 import {FinderComponent} from "./components/finder.component";
 import {FinderFormComponent} from "./components/finderForm.component";
@@ -13,7 +13,7 @@ import {MenuService} from "./services/menu.service";
     providers: [MenuService]
 })
 @Routes([
-    {path: '/home', component: FinderComponent},
+    {path: '/', component: FinderComponent},
     {path: '/jeux/:gameID', component: FinderGameComponent},
     {path: '/administrateur', component: FinderFormComponent}
 ])

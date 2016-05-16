@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var config = require('../gulp.config')();
 var ts = require('gulp-typescript');
 var sourcemaps = require('gulp-sourcemaps');
-var path = require('path');
+
 
 /* Initialize TS Project */
 var typingFiles = [
@@ -34,7 +34,7 @@ function compileTs(files, watchMode) {
     var allFiles = [].concat(files, typingFiles);
     var res = gulp.src(allFiles, {
             base: '.',
-            outDir: 'tmp'
+            outDir: config.tmp
         })
         .pipe(sourcemaps.init())
         .pipe(ts(tsProject))
@@ -43,12 +43,7 @@ function compileTs(files, watchMode) {
         });
     return res.js
         .pipe(sourcemaps.write('.', {
-            // Return relative source map root directories per file.
-            includeContent: false,
-            //   sourceRoot: function (file) {
-            //     var sourceFile = path.join(file.cwd, file.sourceMap.file);
-            //     return path.relative(path.dirname(sourceFile), file.cwd);
-            //   }
+            includeContent: false
         }))
-        .pipe(gulp.dest('tmp'));
+        .pipe(gulp.dest(config.tmp));
 }

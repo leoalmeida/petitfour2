@@ -29,9 +29,9 @@ module.exports = function () {
         favicon: 'dist/favicon.png',
         path: 'dist/',
         app: 'dist/app/',
-        fonts: 'dist/fonts',
-        images: 'dist/assets/imagens',
-        imgHD: 'dist/assets/imgHD',
+        fonts: 'dist/fonts/',
+        images: 'dist/assets/imagens/',
+        imgHD: 'dist/assets/imgHD/',
         assetPath: 'dist/assets/',
         assets: {
             lib: {
@@ -84,7 +84,7 @@ module.exports = function () {
             minify: true,
             mangle: true,
             runtime: false,
-            globalDefs: { DEBUG: false, ENV: 'production' }
+            globalDefs: { DEBUG: false, ENV: 'development' }
         }
     };
 

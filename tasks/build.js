@@ -15,6 +15,7 @@ gulp.task('build', function (done) {
     runSequence('build-sjs', 'build-assets', done);
 });
 
+
 gulp.task('build-sjs', function (done) {
     runSequence('tsc-app', buildSJS);
     function buildSJS () {
@@ -53,9 +54,9 @@ gulp.task('build-assets', function (done) {
             .pipe(gulp.dest(config.build.app));
 
 
-        gulp.src(config.assetsPath.scripts + '**/*.js', {
-            base: config.assetsPath.scripts
-        }).pipe(gulp.dest(config.build.assetPath));
+//        gulp.src(config.assetsPath.scripts + '**/*.js', {
+//            base: config.assetsPath.scripts
+//        }).pipe(gulp.dest(config.build.assetPath));
 
         gulp.src(config.index)
             .pipe(useref())
