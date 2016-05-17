@@ -3,7 +3,7 @@
 
 (function(global) {
     // ENV
-    global.ENV = 'development'
+    global.ENV = 'development';
 
     // wildcard paths
     var paths = {

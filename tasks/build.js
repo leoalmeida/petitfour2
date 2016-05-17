@@ -8,11 +8,14 @@ var revReplace = require('gulp-rev-replace');
 var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
 var Builder = require('systemjs-builder');
+var manifest = require('gulp-manifest');
+var mergeStream = require('merge-stream');
+var path = require('path');
 
 
 /* Prepare build using SystemJS Builder */
 gulp.task('build', function (done) {
-    runSequence('build-sjs', 'build-assets', done);
+    runSequence('build-sjs', 'build-assets', 'build-manifest', done);
 });
 
 
@@ -53,6 +56,11 @@ gulp.task('build-assets', function (done) {
             .pipe(cssnano())
             .pipe(gulp.dest(config.build.app));
 
+        gulp.src(config.assetsPath.imagens + '**/*.*', {
+                base: config.assetsPath.imagens
+            })
+            .pipe(gulp.dest(config.build.assetPath + 'imagens'));
+
 
 //        gulp.src(config.assetsPath.scripts + '**/*.js', {
 //            base: config.assetsPath.scripts
@@ -69,6 +77,32 @@ gulp.task('build-assets', function (done) {
     });
 });
 
+gulp.task('build-manifest', function(){
+    mergeStream(
+        gulp.src([
+            path.join(config.root + '*.html'),
+            path.join(config.root + 'favicon.png'),
+            path.join(config.root + 'fonts/*.*'),
+            path.join(config.assetsPath.imagens + '*.{png,svg,jpg}'),
+            path.join(config.app + 'templates/*.html'),
+            path.join(config.app + 'stylesheets/*.css'),
+            path.join(config.app + 'data/menu.json'),
+            path.join(config.app + 'data/verbs.json'),
+            path.join(config.assets + '*.js'),
+            path.join(config.assets + '*.css')
+        ], {
+            base: config.build.path
+        })
+    ).pipe(manifest({
+            hash: true,
+            preferOnline: true,
+            network: ['*'],
+            filename: 'pettitfour.appcache',
+            exclude: 'app.manifest'
+        }))
+        .pipe(gulp.dest('dist'));
+});
+
 /* Copy fonts in packages */
 gulp.task('fonts', function () {
     gulp.src(config.assetsPath.fonts + '**/*.*', {
@@ -83,13 +117,9 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('others', function () {
-    gulp.src(config.assetsPath.images + '**/*.*', {
-            base: config.assetsPath.images})
-        .pipe(gulp.dest(config.build.images));
-
-    gulp.src(config.assetsPath.imgHD + '**/*.*', {
-            base: config.assetsPath.imgHD})
-        .pipe(gulp.dest(config.build.imgHD));
+    gulp.src(config.root + 'pettitfour.appcache', {
+            base: config.root})
+        .pipe(gulp.dest(config.build.path));
 
     gulp.src(config.root + 'favicon.png', {
             base: config.root})

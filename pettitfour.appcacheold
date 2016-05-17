@@ -1,25 +1,6 @@
 CACHE MANIFEST
 index.html
 favicon.png
-app/main.js
-app/app.component.js
-app/components/finder.component.js
-app/components/finderForm.component.js
-app/components/finderGame.component.js
-app/components/home.component.js
-app/components/menuRouter.component.js
-app/components/navbar.component.js
-app/filters/menu-filter.pipe.js
-app/models/game.model.js
-app/models/verb.model.js
-app/services/
-app/services/angularIndexedDB.service.js
-app/services/items.service.js
-app/services/logger.service.js
-app/services/menu.service.js
-app/services/verbs.service.js
-app/data/menu.json
-app/data/verbs.json
 app/stylesheets/findergame.css
 app/stylesheets/form.css
 app/stylesheets/home.css
@@ -34,12 +15,11 @@ app/templates/findergame.html
 app/templates/home.html
 app/templates/info.html
 app/templates/navbar.html
-assets/angular2-indexeddb.min.js
-assets/bundle-3cb1c12ebc.js
+assets/app-be0dc1fb32.js
 assets/bundle-7e4142d395.css
-assets/finderGame.js
-assets/modernizr.custom.63321.js
+assets/lib-acfede1c2d.js
 assets/imagens/Doughnut-96.png
+assets/imagens/background.jpg
 fonts/FontAwesome.otf
 fonts/fontawesome-webfont.eot
 fonts/fontawesome-webfont.svg
@@ -50,3 +30,5 @@ fonts/Roboto-Regular-webfont.eot
 fonts/Roboto-Regular-webfont.svg
 fonts/Roboto-Regular-webfont.ttf
 fonts/Roboto-Regular-webfont.woff
+app/data/verbs.json
+app/data/menu.json

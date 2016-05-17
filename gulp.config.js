@@ -11,8 +11,7 @@ module.exports = function () {
     var assets = root + 'assets/';
     var assetsPath = {
         styles: assets + 'styles/',
-        images: assets + 'imagens/',
-        imgHD: assets + 'imgHD/',
+        imagens: assets + 'imagens/',
         fonts: assets + 'fonts/',
         scripts: assets + 'scripts/'
     };
@@ -26,12 +25,12 @@ module.exports = function () {
         helper: [testHelper + '**/*.ts']
     };
     var build = {
-        favicon: 'dist/favicon.png',
+        cache: 'pettitfour.appcache',
+        favicon: 'dist/favicon.ico',
         path: 'dist/',
         app: 'dist/app/',
         fonts: 'dist/fonts/',
-        images: 'dist/assets/imagens/',
-        imgHD: 'dist/assets/imgHD/',
+        imagens: 'dist/assets/imagens/',
         assetPath: 'dist/assets/',
         assets: {
             lib: {
@@ -46,6 +45,9 @@ module.exports = function () {
     var browserSync = {
         dev: {
             port: process.env.PORT || 3000,
+            ui: {
+                port: 3002
+            },
             server: {
                 baseDir: './',
                 middleware: [connectLogger(), historyApiFallback()]
@@ -60,15 +62,12 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: process.env.PORT || 3001,
+            port: process.env.PORT || 80,
+            ui: {
+                port: 8080
+            },
             server: {
                 baseDir: './' + build.path,
-                middleware: [connectLogger(), historyApiFallback()]
-            }
-        },
-        production: {
-            server: {
-                baseDir: "./" + build.path,
                 middleware: [connectLogger(), historyApiFallback()]
             }
         }
@@ -84,7 +83,7 @@ module.exports = function () {
             minify: true,
             mangle: true,
             runtime: false,
-            globalDefs: { DEBUG: false, ENV: 'development' }
+            globalDefs: { DEBUG: false, ENV: 'production' }
         }
     };
 
