@@ -43,9 +43,35 @@ var VerbDefinition = (function () {
     VerbDefinition.newVerb = function () {
         return new VerbDefinition(VerbTenseDefinition.newTense(), "", "");
     };
+    VerbDefinition.prototype.equals = function (verbName) {
+        return (this.verbe.indexOf(verbName));
+    };
     return VerbDefinition;
 }());
 exports.VerbDefinition = VerbDefinition;
+var TranslationDefinition = (function () {
+    function TranslationDefinition(verbe, translationPT) {
+        this.verbe = verbe;
+        this.translationPT = translationPT;
+    }
+    return TranslationDefinition;
+}());
+exports.TranslationDefinition = TranslationDefinition;
+var VerbTraductionDefinition = (function () {
+    function VerbTraductionDefinition(divider, verbs) {
+        this.divider = divider;
+        this.verbs = verbs;
+    }
+    return VerbTraductionDefinition;
+}());
+exports.VerbTraductionDefinition = VerbTraductionDefinition;
+var VerbPopulairesDefinition = (function () {
+    function VerbPopulairesDefinition(verbes) {
+        this.verbes = verbes;
+    }
+    return VerbPopulairesDefinition;
+}());
+exports.VerbPopulairesDefinition = VerbPopulairesDefinition;
 var LetterBoxDefinition = (function () {
     function LetterBoxDefinition(verbLetters, listLetters) {
         this.verbLetters = verbLetters;

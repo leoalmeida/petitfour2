@@ -10,6 +10,7 @@ $font-size-base: 13px;
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6065,7 +6066,7 @@ body {
 
 body {
   font-family: 'Lato', Calibri, Arial, sans-serif;
-  background: #f4f4f4 url(./imagens/background.jpg);
+  background: #f4f4f4 url(imagens/background.jpg);
   font-weight: 300;
   font-size: 15px;
   color: #333;

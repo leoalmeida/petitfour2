@@ -11,10 +11,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var navbar_component_1 = require("./components/navbar.component");
-var finder_component_1 = require("./components/finder.component");
-var finderForm_component_1 = require("./components/finderForm.component");
-var finderGame_component_1 = require("./components/finderGame.component");
 var menu_service_1 = require("./services/menu.service");
+var app_routes_1 = require("./app.routes");
 var AppComponent = (function () {
     function AppComponent(router) {
         this.router = router;
@@ -26,14 +24,10 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'main-app',
             templateUrl: 'app/templates/app.html',
-            directives: [router_1.ROUTER_DIRECTIVES, navbar_component_1.NavbarComponent],
+            directives: [navbar_component_1.NavbarComponent, router_1.ROUTER_DIRECTIVES],
             providers: [menu_service_1.MenuService]
         }),
-        router_1.Routes([
-            { path: '/', component: finder_component_1.FinderComponent },
-            { path: '/jeux/:gameID', component: finderGame_component_1.FinderGameComponent },
-            { path: '/administrateur', component: finderForm_component_1.FinderFormComponent }
-        ]), 
+        router_1.Routes(app_routes_1.APP_ROUTES), 
         __metadata('design:paramtypes', [router_1.Router])
     ], AppComponent);
     return AppComponent;

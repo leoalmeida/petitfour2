@@ -7,11 +7,13 @@ import {Router, RouteSegment} from '@angular/router';
 import {VerbsService} from "../services/verbs.service";
 import {
     VerbDefinition, PronomDefinition, VerbTenseDefinition,
-    LetterBoxDefinition
+    LetterBoxDefinition, VerbTraductionDefinition
 } from "../models/verb.model";
 import {GameDefinition} from "../models/game.model"
 import { JSONP_PROVIDERS }  from '@angular/http';
 import {MenuService} from "../services/menu.service";
+import {VerbsPopulairesService} from "../services/verbspopulaires.service";
+import {VerbsTraductionService} from "../services/verbstraduction.service";
 
 @Component({
     selector: 'finder-form',
@@ -29,7 +31,12 @@ export class FinderGameComponent implements OnInit {
     faseCompleta: boolean;
 
     verbs: VerbDefinition[];
-    randomVerb: VerbDefinition;
+    traduires: VerbTraductionDefinition[];
+    populaires: string[];
+    randomVerb: string;
+    randomVerbDef: VerbDefinition;
+
+    popseulement: boolean;
     perfilRespostas: VerbDefinition;
 
     randomPronom: number;
@@ -41,12 +48,17 @@ export class FinderGameComponent implements OnInit {
     caixasResposta: LetterBoxDefinition;
 
 
-    constructor (private verbsService: VerbsService, private router: Router, private menuService: MenuService) {
+    constructor (private verbsService: VerbsService,
+                 private verbsPopulaires: VerbsPopulairesService,
+                 private verbsTraduires: VerbsTraductionService,
+                 private router: Router,
+                 private menuService: MenuService) {
         this.perfilRespostas = VerbDefinition.newVerb();
         this.caixasResposta = LetterBoxDefinition.newLetterBox();
         this.respostaErrada = false;
         this.faseCompleta = false;
         this.close = new EventEmitter<string>();
+        this.popseulement = true;
     }
 
     routerOnActivate(curr: RouteSegment): void {
@@ -66,7 +78,7 @@ export class FinderGameComponent implements OnInit {
     }
 
     rightanswer() {
-        return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe === this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].verbe);
+        return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe === this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe);
     }
     letraCerta(letraResposta: number){
         return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe.split(''))[letraResposta];
@@ -81,24 +93,38 @@ export class FinderGameComponent implements OnInit {
             .subscribe(
                 verbsList => this.verbs = verbsList,
                 error =>  this.errorMessage = <any>error);
+        this.verbsPopulaires.getPopulaires()
+            .subscribe(
+                verbsList => this.populaires = verbsList.verbes.reverse(),
+                error =>  this.errorMessage = <any>error);
+        this.verbsTraduires.getTraductions()
+            .subscribe(
+                verbsList => this.traduires = verbsList,
+                error =>  this.errorMessage = <any>error);
     }
 
     getRandomVerb() {
-
-        this.randomVerb = this.verbs[Math.floor(Math.random() * this.verbs.length)];
+        if (this.popseulement) {
+            this.randomVerb = this.populaires[Math.floor(Math.random() * this.populaires.length)];
+            this.verbs = this.verbs.filter(
+                (item, index) => (!item.verbe.indexOf(this.randomVerb)));
+        }else{
+            this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
+        }
+        //this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
         this.randomTense = Math.floor(Math.random() * this.game.difficult);
-        this.randomPronom = Math.floor(Math.random() * this.randomVerb.temps[this.randomTense].inflections.length);
-        this.randomPronomText = this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].pronom;
+        this.randomPronom = Math.floor(Math.random() * this.randomVerbDef.temps[this.randomTense].inflections.length);
+        this.randomPronomText = this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].pronom;
 
         this.perfilRespostas = VerbDefinition.newVerb();
-        this.perfilRespostas.verbe = FinderGameComponent.toCamel(this.randomVerb.verbe);
-        this.perfilRespostas.translationPT = this.randomVerb.translationPT;
-        this.perfilRespostas.temps[this.randomTense].inflection = this.randomVerb.temps[this.randomTense].inflection;
-        this.perfilRespostas.temps[this.randomTense].mode = this.randomVerb.temps[this.randomTense].mode;
+        this.perfilRespostas.verbe = FinderGameComponent.toCamel(this.randomVerbDef.verbe);
+        this.perfilRespostas.translationPT = this.randomVerbDef.translationPT;
+        this.perfilRespostas.temps[this.randomTense].inflection = this.randomVerbDef.temps[this.randomTense].inflection;
+        this.perfilRespostas.temps[this.randomTense].mode = this.randomVerbDef.temps[this.randomTense].mode;
 
         this.caixasResposta = new LetterBoxDefinition(
-            this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].verbe.toUpperCase().split(''),
-            this.generateRandomLetters(this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].verbe)
+            this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe.toUpperCase().split(''),
+            this.generateRandomLetters(this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe)
         );
         this.faseCompleta = false;
     }
@@ -106,8 +132,8 @@ export class FinderGameComponent implements OnInit {
     getNextVerb(pronom:number) {
         if (this.perfilRespostas.temps[this.randomTense].inflections[pronom].verbe == "") {
             this.caixasResposta = new LetterBoxDefinition(
-                this.randomVerb.temps[this.randomTense].inflections[pronom].verbe.toUpperCase().split(''),
-                this.generateRandomLetters(this.randomVerb.temps[this.randomTense].inflections[pronom].verbe)
+                this.randomVerbDef.temps[this.randomTense].inflections[pronom].verbe.toUpperCase().split(''),
+                this.generateRandomLetters(this.randomVerbDef.temps[this.randomTense].inflections[pronom].verbe)
             );
             this.faseCompleta = false;
             this.respostaErrada = false;
@@ -175,7 +201,7 @@ export class FinderGameComponent implements OnInit {
     }
 
     completeThisFase(){
-        this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe = this.randomVerb.temps[this.randomTense].inflections[this.randomPronom].verbe;
+        this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe = this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe;
         this.faseCompleta = true;
         this.showAlert();
     }

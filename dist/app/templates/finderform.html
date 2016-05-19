@@ -1,0 +1,41 @@
+<div class="panel panel-success round">
+    <div class="panel-heading">
+        <h3></h3>
+    </div>
+    <div class="panel-body">
+        <div *ngFor="let verb of verbs" class="list-group">
+            <div class="row list-group-item active">
+                <div class="list-group-item-heading">
+                    <div class="col-xs-12 col-sm-12">Infinitivo: <strong>{{ verb.infinitive }}</strong></div>
+                </div>
+                <div class="list-group-item-text">
+                    <div class="col-xs-12 col-sm-12">Família: <strong>{{ verb.family }}</strong></div>
+                </div>
+            </div>
+            <div class="row list-group-item" *ngFor="let tense of verb.tenses">
+                <div class="row list-group-item-heading">
+                    <div class="col-xs-12">Tempo Verbal: <span class="badge label-info">{{ tense.tense }}</span> </div>
+                </div>
+                <div class="row list-group-item-heading">
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Je</a></div>
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Tu</a></div>
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Il</a></div>
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Nous</a></div>
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Vous</a></div>
+                    <div class="col-xs-2 col-sm-2"><a href="#" onclick="">Ils</a></div>
+                </div>
+                <div class="row list-group-item-text">
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.je }}</small></div>
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.tu }}</small></div>
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.il }}</small></div>
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.nous }}</small></div>
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.vous }}</small></div>
+                    <div class="col-xs-2 col-sm-2"><small>{{ tense.ils }}</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+    </div>
+</div>

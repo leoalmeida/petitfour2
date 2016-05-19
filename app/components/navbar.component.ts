@@ -7,7 +7,6 @@ import {RouteSegment} from '@angular/router';
     selector: 'navbar',
     templateUrl: 'app/templates/navbar.html',
     styleUrls: ['app/stylesheets/navbar.css'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
     directives: [CORE_DIRECTIVES]
 })
 export class NavbarComponent{

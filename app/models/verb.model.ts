@@ -42,7 +42,23 @@ export class VerbDefinition {
         return new VerbDefinition(VerbTenseDefinition.newTense(),"","");
     }
 
+    equals(verbName: string){
+        return (this.verbe.indexOf(verbName));
+    }
+}
 
+export class TranslationDefinition {
+
+    constructor(public verbe: string,
+                public translationPT: string) {}
+}
+export class VerbTraductionDefinition {
+
+    constructor(public divider: string,
+                public verbs: TranslationDefinition[]) {}
+}
+export class VerbPopulairesDefinition {
+    constructor(public verbes: string[]) {}
 }
 
 export class LetterBoxDefinition {

@@ -7,7 +7,7 @@ import 'rxjs/add/operator/do';  // debug
 import 'rxjs/add/operator/catch';
 
 import {VerbDefinition} from "../models/verb.model";
-import {AngularIndexedDB} from './AngularIndexedDB.service';
+//import {AngularIndexedDB} from './AngularIndexedDB.service';
 
 @Injectable()
 export class VerbsService {

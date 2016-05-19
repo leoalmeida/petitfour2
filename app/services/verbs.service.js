@@ -15,6 +15,7 @@ require('rxjs/add/observable/throw');
 require('rxjs/add/operator/map');
 require('rxjs/add/operator/do'); // debug
 require('rxjs/add/operator/catch');
+//import {AngularIndexedDB} from './AngularIndexedDB.service';
 var VerbsService = (function () {
     //private db: AngularIndexedDB;
     function VerbsService(http) {

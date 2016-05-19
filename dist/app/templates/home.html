@@ -1,0 +1,26 @@
+<form class="form-search" role="search" [hidden]="!showSearch">
+    <div class="form-group">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input class="form-control input-lg" type="text" #searchText placeholder="Pesquisar..." />
+    </div>
+    <button type="submit" class="botao botao-default botao-pequeno botao-shadow img-circle" (click)="toggle()" >
+        <i class="fa fa-close" aria-hidden="true"></i>
+    </button>
+</form>
+
+<div id="painel" class="panel panel-success round main" >
+    <div class="panel-heading">
+        <strong><strong>Menu Principal</strong></strong>
+    </div>
+    <div class="panel-body caixas">
+            <ul class="list-group" #searchText (teste)="myValueChange($event)">
+                <li *ngFor="let item of list; let idx=index" class="element-item" >
+                    <a accesskey="w" class="btn btn-primary botao-shadow" (click)="onSelect(item)" data-toggle="tooltip" data-placement="up" title="{{item.name}}" >
+                        <img class="img-responsive center-block" src="{{item.imgLink}}" alt="Img" />
+                    </a>
+                </li>
+            </ul>
+    </div>
+</div>
+
+<router-outlet name="homeOutlet"></router-outlet>

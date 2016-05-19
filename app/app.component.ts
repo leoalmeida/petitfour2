@@ -1,22 +1,18 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {Routes, ROUTER_DIRECTIVES, Router} from '@angular/router';
+import {HTTP_PROVIDERS} from '@angular/http';
 import {NavbarComponent} from "./components/navbar.component";
-import {FinderComponent} from "./components/finder.component";
-import {FinderFormComponent} from "./components/finderForm.component";
-import {FinderGameComponent} from "./components/finderGame.component";
 import {MenuService} from "./services/menu.service";
+import {APP_ROUTES} from "./app.routes";
 
 @Component({
     selector: 'main-app',
     templateUrl: 'app/templates/app.html',
-    directives: [ROUTER_DIRECTIVES, NavbarComponent],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    directives: [NavbarComponent,ROUTER_DIRECTIVES],
     providers: [MenuService]
 })
-@Routes([
-    {path: '/', component: FinderComponent},
-    {path: '/jeux/:gameID', component: FinderGameComponent},
-    {path: '/administrateur', component: FinderFormComponent}
-])
+@Routes(APP_ROUTES)
 export class AppComponent implements OnInit {
 
     constructor(private router: Router) {}

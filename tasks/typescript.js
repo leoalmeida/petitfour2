@@ -6,7 +6,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 /* Initialize TS Project */
 var typingFiles = [
-    'typings/browser.d.ts'
+    'typings/index.d.ts'
 ];
 
 var tsFiles = [].concat(config.tsFiles);

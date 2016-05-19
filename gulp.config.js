@@ -62,9 +62,9 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: process.env.PORT || 80,
+            port: process.env.PORT || 8080,
             ui: {
-                port: 8080
+                port: 8081
             },
             server: {
                 baseDir: './' + build.path,

@@ -2,6 +2,7 @@
  * Created by LeonardoAlmeida on 07/05/16.
  */
 import { Component, OnInit}            from '@angular/core';
+import { ROUTER_PROVIDERS } from '@angular/router';
 //import { JSONP_PROVIDERS }      from '@angular/http';
 //import {VerbsService} from "../services/verbs.service";
 //import {FinderFormComponent} from "./finderForm.component";
@@ -43,8 +44,8 @@ import {GameDefinition} from "../models/game.model";
             </div>
     `,
     styleUrls: ['app/stylesheets/start.css'],
-    directives: [FinderGameComponent],
-    //providers:  [HTTP_PROVIDERS,VerbsService, provide(XHRBackend, { useClass: InMemoryBackendService }),provide(SEED_DATA,  { useClass: VerbsData })]
+    directives: [FinderGameComponent, MenuService],
+    providers: [ROUTER_PROVIDERS]
 })
 export class FinderComponent implements OnActivate{
 
@@ -52,7 +53,8 @@ export class FinderComponent implements OnActivate{
 
     private selectedGameId: number;
 
-    constructor(private service: MenuService, private router: Router){}
+    constructor(private service: MenuService,
+                private router: Router){}
 
     routerOnActivate(curr: RouteSegment, prev?: RouteSegment, currTree?: RouteTree, prevTree?: RouteTree): void  {
         this.selectedGameId = +curr.getParam('gameID');

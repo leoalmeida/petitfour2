@@ -1,16 +1,14 @@
-<html manifest="pettitfour.appcache">
+<html>
   <head>
     <title>Pettit Four</title>
-      <base href="/" />
+      <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- build:css assets/bundle.css -->
-    <!-- bower:css -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
-    <!-- endinject -->
     <!-- app:css -->
-        <link rel="stylesheet" href="/assets/styles/main.css">
-        <!-- endinject -->
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <!-- endinject -->
     <!-- endbuild -->
   </head>
   <body >
@@ -21,7 +19,7 @@
     </main-app>
 
     <!-- build:js assets/lib.js -->
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 
     <!-- 1. Load libraries -->
@@ -40,11 +38,9 @@
     <script src="node_modules/systemjs/dist/system.js"></script>
     <script src="systemjs.conf.js"></script>
 
-    <script src="assets/scripts/angular2-indexeddb.min.js"></script>
-    <script src="assets/scripts/modernizr.custom.63321.js"></script>
-
     <script>
       System.import('app/main.js').catch(function(err) { console.error(err); });
     </script>
+    <!-- endbuild -->
   </body>
 </html>

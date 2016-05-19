@@ -1,0 +1,8033 @@
+
+
+{
+  "data": [
+    {
+      "divider": "A",
+      "verbs": [
+        {
+          "verbe": "abaisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abandonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abasourdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abattre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abêtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abhorrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abîmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abolir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abonder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aborder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aboutir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aboyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abréger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abreuver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abriter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abrutir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "absenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "absoudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abstenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abstraire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "abuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accabler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accaparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accélérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accentuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accepter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accommoder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accompagner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accomplir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accorder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accoucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accrocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accroire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accroître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accroupir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accueillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accumuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "accuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acharner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acheminer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acheter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "achever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aciérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aciseler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acquérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acquiescer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acquitter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "acter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "activer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "actualiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adapter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "additionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adhérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adjoindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "admettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "administrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "admirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adopter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adoucir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "adresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "advenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affaiblir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affecter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affectionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "afférer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affermir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "afficher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affirmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affliger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affranchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "affronter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agenouiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aggraver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agonir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agrafer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agrandir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agréer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agréger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "agripper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aguerrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aiguiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aiguiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ailler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "airer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ajouter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alerter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aliéner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aligner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alimenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aliter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "allécher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alléger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alléguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "allier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "allonger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "allouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "allumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alourdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "altérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aluner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "alunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amarrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "améliorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aménager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amenuiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amerrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amoindrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amonceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amorcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amortir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amourer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amplifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amuïr",
+          "translationPT": ""
+        },
+        {
+          "verbe": "amuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "analyser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "anéantir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "animer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "annihiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "annoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "annoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "annuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "anticiper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apaiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apercevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apeurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apitoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aplanir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aplatir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apparenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apparier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apparoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appartenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appauvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "applaudir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apprécier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appréhender",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "apprêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "approcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "approfondir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "approprier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "approuver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "approvisionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "appuyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arborer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arracher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arranger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arrêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arriver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arrondir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "arroser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aspirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assagir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assaillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assainir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assassiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assembler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "asséner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "asseoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "asservir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assiéger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assimiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "associer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assombrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assortir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assoupir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assouplir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assouvir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assujettir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "assurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "astreindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attaquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "atteindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "atteler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attendrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "atténuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "atterrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "atterrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attraper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "attribuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "augmenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "autoriser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "autosuggestionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aventurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avertir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "aviser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "avoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "axer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "B",
+      "verbs": [
+        {
+          "verbe": "baigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bailler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bâiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "baisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "balader",
+          "translationPT": ""
+        },
+        {
+          "verbe": "balancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "balayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "balbutier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bannir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "baptiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "barrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "barrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "basculer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "baser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bâtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "battre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bavarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "baver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "béer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bégayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bénéficier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bénir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bercer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "besogner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bienvenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "biner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "biper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "biser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blaguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blâmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blanchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blêmir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blesser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bleuir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bloquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "blottir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "boire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "boiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "boiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "boîter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bonder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bondir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bonifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bosser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "botter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "boucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouleverser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bourrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bousculer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bouter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "braire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bramer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brancher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brandir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "branler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "breveter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bricoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "briller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brimbaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "briser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bronzer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brosser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brouter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "broyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "bruire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brûler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "brunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "budgéter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "buriner",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "C",
+      "verbs": [
+        {
+          "verbe": "cacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cacheter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "calculer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "calmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "capeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "capter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caqueter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caracoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caractériser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "carreler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "casser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "causer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "caver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "céder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ceindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "célébrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "celer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cerner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "certifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cesser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chahuter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chaloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chanceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "changer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "charger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "charmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "charrier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "châtier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chauffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chausser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chercher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cherrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chevaucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chialer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "choir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "choisir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "choper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "choquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "choyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chuchoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "chuter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "circoncire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "circonscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "circuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ciseler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "citer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "claquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "clarifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "classer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "clignoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cloner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "clore",
+          "translationPT": ""
+        },
+        {
+          "verbe": "clôturer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "clouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "côcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cogiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cogner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coiffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coincer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coïncider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "collaborer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "collecter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "collectionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "colorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "colorier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "combattre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "combiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "combler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "commander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "commencer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "commenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "commercer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "commettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "communiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "comparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "comparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compatir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "complaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compléter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "complexifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "comporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "composer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "comprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compromettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "compter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concentrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concerner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concilier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conclure",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "concurrencer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "condamner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conditionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confectionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conférer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confesser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "configurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confirmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conformer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "confronter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "congeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conjoindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conjuguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conjurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "connaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "connecter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conquérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consacrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conseiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conserver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "considérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "constater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "constituer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "construire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consulter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "consumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contacter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contempler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "conter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "continuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contraindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contrarier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contredire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contrefaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contrevenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contribuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "contrôler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convaincre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convertir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convoiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convoquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "convoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coopérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coordonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "copier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "corréler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "correspondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "corriger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "corroborer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "corrompre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cotiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "côtoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "couiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "couler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "couper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "courbaturer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "courir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "courre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "coûter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "couver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "couvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cracher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "craindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cramer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "craquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "créditer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "créer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "creuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "crever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "crier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "critiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "croire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "croiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "croître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "croquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "crosser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "crotter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "croupir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cueillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cuire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cuisiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cultiver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "cumuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "curer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "D",
+      "verbs": [
+        {
+          "verbe": "daigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "daller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "damer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "damner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "danser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déballer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débarquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débarrasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débattre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déblatérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déblayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débloquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déborder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déboucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débouillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débrouiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "débuter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décharger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déchiqueter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déchirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déchoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déclarer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déclencher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décliner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décoller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décommettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déconner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "découdre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "découper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décourager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "découvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décrier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décrocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "décroître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dédicacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dédier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dédire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défaillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "définir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "défrayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dégager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dégeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dégénérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déglutir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dégourdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dégoûter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déguerpir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déguster",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déjeuner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "délayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déléguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "délier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "délivrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "demander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démanteler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démarrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déménager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "demeurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démissionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démolir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démontrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démordre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "démunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dénier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dénigrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dénoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dénuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépanner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "départir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépecer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépêcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépeindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dépérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déplacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déplaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déplier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déployer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déprimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déranger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déraper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déroger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dérouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désapprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "descendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désespérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déshabiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désobéir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "désoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dessaisir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "desservir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dessiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "destiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détailler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détecter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déteindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détériorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "déterminer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "détruire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "devancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "développer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "devenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévêtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "deviner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévoiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "devoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dévoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diagnostiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dialoguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dicter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "différencier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "différer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diffuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "digérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diminuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dîner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diriger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disconvenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "discourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "discuter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disjoindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dispenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disperser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "disputer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dissiper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dissoudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "distinguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "distraire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "distribuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diverger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "divertir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "diviser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "divorcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "divulguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doigter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dominer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "donner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dorloter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dormir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doubler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "doucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "douer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "douter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "draguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "draper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "duper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "dupliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "durcir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "durer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "E",
+      "verbs": [
+        {
+          "verbe": "ébahir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ébattre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éberluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éblouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "échanger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "échapper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "échoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "échouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éclabousser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éclaircir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éclairer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éclater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éclore",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écoeurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éconduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écouter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écraser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écrier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "écrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éditer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éduquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "effacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "effectuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "effleurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "effondrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "efforcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "effrayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égarer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égoutter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égrainer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "égrener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éjaculer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élaborer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élaguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élargir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éliminer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "élire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éloigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émaner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emballer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embarquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embarrasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embatre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embaucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embellir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emboire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embraser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embrasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "embrayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émerger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emmêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emménager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emmener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émoudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émouvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "empêcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "empiéter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "empirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emplir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "employer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "empreindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "empresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "emprunter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "émuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "encaisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enchaîner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enchanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enchérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enclore",
+          "translationPT": ""
+        },
+        {
+          "verbe": "encourager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "encourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "endommager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "endormir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "endurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "énerver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfermer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enflammer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfreindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enfuir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "engager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "engendrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "engloutir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "engueuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enivrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enjoindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enlacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enlever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ennoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ennuyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "énoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enorgueillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "énouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enquérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enquêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enrayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enregistrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enrhumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enrichir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enseigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ensevelir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ensorceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ensuivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entamer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entériner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enterrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "enthousiasmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entourer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entraîner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entre-haïr",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entreprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entretenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entrevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "entrouvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "énucléer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "énumérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envahir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envelopper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envisager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "envoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épaissir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épandre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épanouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épargner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éplucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épouser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épousseter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éprouver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "épuiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "équiper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "équivaloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "errer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "escalader",
+          "translationPT": ""
+        },
+        {
+          "verbe": "espérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "essayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "essouffler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "essuyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "estimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "établir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éteindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éternuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étinceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étiqueter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étoffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étouffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étourdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "être",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étrécir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étreindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étrenner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "étudier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évacuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évader",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évaluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évanouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éveiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "éviter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évoluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "évoquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exagérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "examiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exaucer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "excéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exceller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exclamer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exclure",
+          "translationPT": ""
+        },
+        {
+          "verbe": "excuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exécrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exécuter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exempter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exercer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exiger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "expédier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "expirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "expliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exploiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "explorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exploser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "exprimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "extasier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "extraire",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "F",
+      "verbs": [
+        {
+          "verbe": "fabriquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faciliter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "façonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "facturer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fader",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faiblir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "failler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "falloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "familiariser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "farcir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fasciner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fatiguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fauter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "favoriser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "faxer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "feindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "féliciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "férir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fermer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "festoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "feuilleter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fiancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ficeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ficher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "figer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "figurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "filer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "filmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "finaliser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "finir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fixer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "flamboyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "flâner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "flatter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fléchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fleurir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "flotter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "flûter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "foirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "foncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fonctionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fonder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "forcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "forer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "forger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "formater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "former",
+          "translationPT": ""
+        },
+        {
+          "verbe": "formuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "foudroyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fouetter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fouiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fournir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fourvoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "foutre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fraîchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "franchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frapper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "freiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frémir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fréquenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "froisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frôler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "frotter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fuir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fureter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "fusionner",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "G",
+      "verbs": [
+        {
+          "verbe": "gâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gagner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "galoper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "garantir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "garder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "garer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "garnir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gaspiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gazer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "geindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "geler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gémir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gêner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "générer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gésir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gîter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "glacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "glander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "glisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gonfler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gourer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "goûter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grandir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grasseyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gratter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "graver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gravir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gréer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gréver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grignoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grimper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grogner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gronder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "grossir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "guérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "guetter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "gueuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "guider",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "H",
+      "verbs": [
+        {
+          "verbe": "habiliter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "habiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "habiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "habituer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "habler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "haïr",
+          "translationPT": ""
+        },
+        {
+          "verbe": "haler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hâler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "haleter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "halluciner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "happer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "harceler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hausser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "haver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "havir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "héberger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "héler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hennir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hériter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hésiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "heurter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "homogénéiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "honnir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "honorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "houer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "huer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "huir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "humer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "humilier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "hurler",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "I",
+      "verbs": [
+        {
+          "verbe": "identifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ignorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "illuminer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "illustrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imaginer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "immiscer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "impacter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "impartir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "impatienter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "implanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "implémenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "impliquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "importer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "importuner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imprégner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "impressionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "imprimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inaugurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "incliner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inclure",
+          "translationPT": ""
+        },
+        {
+          "verbe": "incomber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "indiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "induire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "influencer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "influer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "informer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inhiber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "initier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inonder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inquiéter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "insérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "insinuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "insister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inspirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "installer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "instruire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intégrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intensifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interagir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interdire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intéresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interférer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interpeller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interpréter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interroger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interrompre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intervenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intervertir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "interviewer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "intriguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "introduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inventer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inverser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "investiguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "investir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "inviter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ioder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "irriter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "isoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "issir",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "J",
+      "verbs": [
+        {
+          "verbe": "jaillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jalouser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "japper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jaser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jaunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jeter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jeûner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "joindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jongler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "juger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "jurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "justifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "juter",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "K",
+      "verbs": [
+        {
+          "verbe": "kiffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "koter",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "L",
+      "verbs": [
+        {
+          "verbe": "lacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lainer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "laisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lamenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lamer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "languir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "laper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "larguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "laver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "layer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lécher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "léguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "léser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "leurrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "libérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "licencier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "limiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "livrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "loger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "longer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lotir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "louer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "louper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "louvoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lover",
+          "translationPT": ""
+        },
+        {
+          "verbe": "luire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "luter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "lutter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "luxer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "M",
+      "verbs": [
+        {
+          "verbe": "mâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maigrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maintenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maîtriser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manifester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manipuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "manquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maquiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "marcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "marier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "marquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "marrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "marteler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "masser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maudire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "maugréer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mécroire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "médire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "méditer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "méfier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mélanger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "menacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ménager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mendier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mentionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "méprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mériter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "messeoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mesurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "métrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "meuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "meurtrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "miauler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "migrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mijoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mincir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "miner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "miser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "modeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "modérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "modifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "moisir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mollir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "monnayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "monter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "montrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "moquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mordre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "morfondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "motiver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "moucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "moudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mouiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mouver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mouvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "muer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "multiplier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "munir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "murer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "mûrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "murmurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "muser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "muter",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "N",
+      "verbs": [
+        {
+          "verbe": "nager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "naître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "narguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "narrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "naviguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nécessiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "négliger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "négocier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "neiger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nettoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "niveler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "noircir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nominer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "noter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "notifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nourrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "noyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "nuire",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "O",
+      "verbs": [
+        {
+          "verbe": "obéir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "obliger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "obscurcir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "obséder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "observer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "obtempérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "obtenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "occasionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "occire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "occlure",
+          "translationPT": ""
+        },
+        {
+          "verbe": "occuper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ocrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "octroyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "oeuvrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "offenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "officier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "offrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "oindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "omettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "opérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "opposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "opter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ordonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "organiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "orienter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "orner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "osciller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "oser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ôter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "oublier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ouïr",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ourdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ouvrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ouvrir",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "P",
+      "verbs": [
+        {
+          "verbe": "pagayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "paître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pâlir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pallier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "paner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "panner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "panser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "paraître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "paramétrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parcourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pardonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parfaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parrainer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "partager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "participer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "partir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "parvenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "passer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "passionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "patienter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "patiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pâtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pauser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "paver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "payer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peaufiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pêcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pécher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pédaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peinturer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pelleter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pencher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pénétrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "penser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "percer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "percevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "perdre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "perdurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pérenniser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "périr",
+          "translationPT": ""
+        },
+        {
+          "verbe": "permettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "persévérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "persister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "persuader",
+          "translationPT": ""
+        },
+        {
+          "verbe": "perturber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "peser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pétrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "photographier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "piéger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pifer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pincer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "piper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "piquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "placer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plaider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plaindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plaisanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "planer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "planifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "planter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pleurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pleuvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "plonger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ployer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pointer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "polir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "polluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "porter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "positionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "posséder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poster",
+          "translationPT": ""
+        },
+        {
+          "verbe": "postuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pourrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "poursuivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pourvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pousser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pouvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pratiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "précéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prêcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "précipiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préciser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préconiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prédire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préétablir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préférer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prénommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préoccuper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prescrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "présenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "préserver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pressentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "presser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prétendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prévaloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prévenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prévoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "primer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "priser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "priver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "privilégier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "procéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "procurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prodiguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "produire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "profiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "programmer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "progresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "projeter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prolonger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "promener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "promettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "promouvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prôner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prononcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "proposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "proscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "protéger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "prouver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "provenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "provoquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "publier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "puer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "puiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "pulluler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "punir",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "Q",
+      "verbs": [
+        {
+          "verbe": "qualifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "quémander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "querir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "quérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "questionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "quêter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "quitter",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "R",
+      "verbs": [
+        {
+          "verbe": "rabattre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raccourcir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raccrocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "racheter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raconter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raffoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rafraîchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raidir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "railler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raisonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rajeunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rajouter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ralentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "râler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rallier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ramasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ramener",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ramer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ramollir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ranger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rapatrier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rapetisser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rappeler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rapporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rapprocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "raser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rassasier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rassembler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rasseoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rassir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rassurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rattacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rattraper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ravager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ravir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ravoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rayonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réagir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réaliser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réapparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réapprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rebondir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recéler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "receler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réceptionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réchauffer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rechercher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réclamer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "récolter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recommander",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recommencer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "récompenser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réconcilier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reconduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réconforter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reconnaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reconquérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reconstruire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recontacter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recopier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recoudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recouvrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recouvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recréer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "récréer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "récrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recruter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rectifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "recueillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reculer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "récupérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redécouvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redémarrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redescendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redevenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redevoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rédiger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "redonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réécrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réélire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réessayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "refaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "référencer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "référer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "refermer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réfléchir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "refléter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "refroidir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réfugier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "refuser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "régaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "regarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "régir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réglementer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "régler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "régner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "regretter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "regrouper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réinscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réitérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rejeter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rejoindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réjouir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relancer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relater",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "relire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reluire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remarquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rembourser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remédier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remémorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remercier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remonter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remplacer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remplir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "remuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rémunérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renchérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rencontrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rendormir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renforcer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renoncer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renouveler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renseigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rentrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renverser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "renvoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "répandre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reparler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repartir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "répartir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repeindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rependre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "répertorier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "répéter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repleuvoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "replier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "répondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "repousser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "représenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reprocher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "reproduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "requérir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réserver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résilier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résoudre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "respecter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "respirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "resplendir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressaisir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressayer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressembler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "resserrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "resservir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressortir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ressusciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "restaurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "restituer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "restreindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résulter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "résumer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rétablir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retomber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retourner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retranscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retransmettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rétrécir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "retrouver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réunir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réussir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revaloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rêvasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réveiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "révéler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revendiquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rêver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revêtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "réviser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "revouloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rigoler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rincer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "risquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rôder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "roder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rompre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ronfler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ronger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ronronner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "roquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "roser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rôtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rougir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rouspéter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rouvrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ruer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "rugir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ruisseler",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "S",
+      "verbs": [
+        {
+          "verbe": "sacrifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saisir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "salir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saloper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saluer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sangloter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saouler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "satisfaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "saurer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sauter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sauvegarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sauver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "savoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "savonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "savourer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "scanner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sceller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "scier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "scinder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "scruter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sécher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "secouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "secourir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "séduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "séjourner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sélectionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "seller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sembler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "semer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sentir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "seoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "séparer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "serrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sertir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "servir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sévir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sevrer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "siéger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "siffler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "signaler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "signer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "signifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "simplifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "siroter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "situer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "skier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "solliciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "solutionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sommeiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sommer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "songer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sortir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soucier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soudoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souffler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souffrir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souhaiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soulager",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soûler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soulever",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souligner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soumettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soupçonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soupirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sourdre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sourire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sous-entendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sous-tendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souscrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soustraire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "soutenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "souvenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "spécifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "statuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stipuler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stocker",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stopper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stresser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stupéfaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "stupéfier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "subir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "subodorer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "subsister",
+          "translationPT": ""
+        },
+        {
+          "verbe": "substituer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "subvenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "succéder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "succomber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sucer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suffire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suffoquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suggérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suicider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suppléer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "supplier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "supporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "supposer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "supprimer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "supputer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surfaire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surfer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surgir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surprendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sursauter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surseoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "surveiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "survenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "survivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "susciter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "suspendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "sustenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "susurrer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "T",
+      "verbs": [
+        {
+          "verbe": "tacher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tâcher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tailler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "taire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "taler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tanner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "taper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tapir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "taquiner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tarder",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tarer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tarir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tâter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tatouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "teindre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "teinter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "télécharger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "téléphoner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "témoigner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tenir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tenter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "terminer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "ternir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tester",
+          "translationPT": ""
+        },
+        {
+          "verbe": "têter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "téter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tiédir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tinter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tirer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "titiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "toiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "toiser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tolérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tomber",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tomer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tondre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tonner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "toquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tordre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "toucher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tourner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tournoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tousser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tracasser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tracer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "traduire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trahir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "traîner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "traire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "traiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tramer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transcrire",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transférer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transformer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transmettre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transparaître",
+          "translationPT": ""
+        },
+        {
+          "verbe": "transporter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "travailler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "traverser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trembler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tremper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tressaillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tricher",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tricoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tripoter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tromper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trotter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "troubler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "trouver",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tuer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tuiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "tutoyer",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "U",
+      "verbs": [
+        {
+          "verbe": "unir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "urger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "uriner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "user",
+          "translationPT": ""
+        },
+        {
+          "verbe": "utiliser",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "V",
+      "verbs": [
+        {
+          "verbe": "vagir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vaguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vaincre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "valider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "valoir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vanner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vanter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vaquer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "varier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vaser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "veiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vêler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vendre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vénérer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "venger",
+          "translationPT": ""
+        },
+        {
+          "verbe": "venir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "venter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "verdir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vérifier",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vernir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "verrouiller",
+          "translationPT": ""
+        },
+        {
+          "verbe": "verser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vêtir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vexer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vider",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vieillir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "viner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "violer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "virer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "viser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "visionner",
+          "translationPT": ""
+        },
+        {
+          "verbe": "visiter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "visser",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vivre",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voguer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voiler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voler",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voleter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vomir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vouer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vouloir",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voûter",
+          "translationPT": ""
+        },
+        {
+          "verbe": "vouvoyer",
+          "translationPT": ""
+        },
+        {
+          "verbe": "voyager",
+          "translationPT": ""
+        }
+      ]
+    },
+    {
+      "divider": "Z",
+      "verbs": [
+        {
+          "verbe": "zapper",
+          "translationPT": ""
+        },
+        {
+          "verbe": "zézayer",
+          "translationPT": ""
+        }
+      ]
+    }
+  ]
+}

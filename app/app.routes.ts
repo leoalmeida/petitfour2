@@ -1,13 +1,13 @@
 import {Route} from '@angular/router';
 import {HomeComponent} from './components/home.component';
 import {FinderComponent} from "./components/finder.component";
+import {FinderGameComponent} from "./components/finderGame.component";
+import {FinderFormComponent} from "./components/finderForm.component";
 
-export var APP_ROUTES: Route[] = [
-    {path: '/', component: HomeComponent}
-];
-
-export var MENU_ROUTES: Route[] = [
-    { path: '/finder', component: FinderComponent}
+export var APP_ROUTES: any[] = [
+    {path: '/home', name: 'Home', component: FinderComponent},
+    {path: '/jeux/:gameID', name: 'Jeux', component: FinderGameComponent},
+    {path: '/administrateur', name: 'Admin', component: FinderFormComponent}
 ];
 
 /*

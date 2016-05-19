@@ -1,5 +1,4 @@
-/**
- * Created by LeonardoAlmeida on 06/05/16.
+ /* Created by LeonardoAlmeida on 06/05/16.
  */
 import {Directive, Input, Output, EventEmitter, ElementRef, OnInit, OnChanges} from '@angular/core';
 
