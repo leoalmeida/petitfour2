@@ -15,4 +15,8 @@ export class GameDefinition {
         return list;
     }
 
+    static newGame(){
+        return new GameDefinition(1,"Def","","",18,1);
+    }
+
 }

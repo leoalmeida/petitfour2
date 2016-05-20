@@ -47,18 +47,13 @@ export class VerbDefinition {
     }
 }
 
-export class TranslationDefinition {
-
+export class VerbeTraduiresDefinition {
     constructor(public verbe: string,
-                public translationPT: string) {}
-}
-export class VerbTraductionDefinition {
+                public texteTraduit: string) {}
 
-    constructor(public divider: string,
-                public verbs: TranslationDefinition[]) {}
-}
-export class VerbPopulairesDefinition {
-    constructor(public verbes: string[]) {}
+    static newTraduire(){
+        return new VerbeTraduiresDefinition("","");
+    }
 }
 
 export class LetterBoxDefinition {

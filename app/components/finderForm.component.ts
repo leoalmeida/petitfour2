@@ -4,10 +4,9 @@
 import {Component, OnInit} from '@angular/core';
 import {CORE_DIRECTIVES} from '@angular/common';
 import {VerbsService} from "../services/verbs.service";
-import {VerbDefinition, VerbTraductionDefinition, VerbPopulairesDefinition} from "../models/verb.model";
+import {VerbDefinition, VerbeTraduiresDefinition} from "../models/verb.model";
 import { JSONP_PROVIDERS }  from '@angular/http';
-import {VerbsTraductionService} from "../services/verbstraduction.service";
-import {VerbsPopulairesService} from "../services/verbspopulaires.service";
+import {VerbsTraduireService} from "../services/verbstraduire.service";
 import {VerbFilterPipe} from "../filters/verb-filter.pipe";
 
 @Component({
@@ -15,21 +14,19 @@ import {VerbFilterPipe} from "../filters/verb-filter.pipe";
     templateUrl: 'app/templates/finderform.html',
     //styleUrls: ['app/stylesheets/finderform.css'],
     directives: [CORE_DIRECTIVES],
-    providers:  [JSONP_PROVIDERS, VerbsService, VerbsPopulairesService, VerbsTraductionService],
+    providers:  [JSONP_PROVIDERS, VerbsService, VerbsTraduireService],
     pipes: [VerbFilterPipe]
 })
 export class FinderFormComponent implements OnInit {
     constructor (private verbsService: VerbsService,
-                 private verbsPopulaires: VerbsPopulairesService,
-                 private verbsTraduires: VerbsTraductionService) {
+                 private verbsTraduires: VerbsTraduireService) {
         this.popseulement = true;
     }
 
     errorMessage: string;
     verbs: VerbDefinition[];
-    traduires: VerbTraductionDefinition[];
-    populaires: string[];
-    randomVerb: string;
+    traduires: VerbeTraduiresDefinition[];
+    randomVerb: VerbeTraduiresDefinition;
     randomVerbDef: VerbDefinition;
 
     popseulement: boolean;
@@ -41,10 +38,6 @@ export class FinderFormComponent implements OnInit {
             .subscribe(
                 verbsList => this.verbs = verbsList,
                 error =>  this.errorMessage = <any>error);
-        this.verbsPopulaires.getPopulaires()
-            .subscribe(
-                verbsList => this.populaires = verbsList.verbes.reverse(),
-                error =>  this.errorMessage = <any>error);
         this.verbsTraduires.getTraductions()
             .subscribe(
                 verbsList => this.traduires = verbsList,
@@ -53,10 +46,10 @@ export class FinderFormComponent implements OnInit {
 
     getRandomVerb() {
         if (this.popseulement) {
-            this.randomVerb = this.populaires[Math.floor(Math.random() * this.populaires.length)];
+            this.randomVerb = this.traduires[Math.floor(Math.random() * this.traduires.length)];
             //this.find(this.verbs, this.randomVerb).then(item => this.randomVerbDef = item);
             this.verbs = this.verbs.filter(
-                (item, index) => (!item.verbe.indexOf(this.randomVerb)));
+                (item, index) => (!item.verbe.indexOf(this.randomVerb.verbe)));
         }else{
             this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
         }

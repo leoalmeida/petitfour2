@@ -18,7 +18,7 @@ import {GameDefinition} from "../models/game.model";
 
 
 @Component({
-    selector: 'jeux',
+    selector: 'main-app',
     template: `
             <finder-form></finder-form>
             <div class="jumbotron">
@@ -44,28 +44,26 @@ import {GameDefinition} from "../models/game.model";
             </div>
     `,
     styleUrls: ['app/stylesheets/start.css'],
-    directives: [FinderGameComponent, MenuService],
-    providers: [ROUTER_PROVIDERS]
+    directives: [FinderGameComponent]
 })
-export class FinderComponent implements OnActivate{
+export class FinderComponent{
 
     games: GameDefinition[];
 
     private selectedGameId: number;
 
-    constructor(private service: MenuService,
-                private router: Router){}
+    constructor(){}
 
-    routerOnActivate(curr: RouteSegment, prev?: RouteSegment, currTree?: RouteTree, prevTree?: RouteTree): void  {
+   /* routerOnActivate(curr: RouteSegment, prev?: RouteSegment, currTree?: RouteTree, prevTree?: RouteTree): void  {
         this.selectedGameId = +curr.getParam('gameID');
         this.service.getAllMenuItems().subscribe(games => this.games = games);
         console.log('CurrPage: ', curr.getParam('gameID'));
     }
-
+*/
     isSelected(game: GameDefinition) { return game.id === this.selectedGameId; }
 
     onSelect(selectedGame: GameDefinition) {
-        this.router.navigate(['/jeux', selectedGame.id]);
+        //this.router.navigate(['/jeux', selectedGame.id]);
     }
 
 }

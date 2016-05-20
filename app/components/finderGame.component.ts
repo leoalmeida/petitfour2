@@ -5,22 +5,19 @@ import {Component, OnInit, EventEmitter, Output} from '@angular/core';
 import {CORE_DIRECTIVES} from '@angular/common';
 import {Router, RouteSegment} from '@angular/router';
 import {VerbsService} from "../services/verbs.service";
-import {
-    VerbDefinition, PronomDefinition, VerbTenseDefinition,
-    LetterBoxDefinition, VerbTraductionDefinition
+import {VerbDefinition, LetterBoxDefinition, VerbeTraduiresDefinition
 } from "../models/verb.model";
 import {GameDefinition} from "../models/game.model"
 import { JSONP_PROVIDERS }  from '@angular/http';
 import {MenuService} from "../services/menu.service";
-import {VerbsPopulairesService} from "../services/verbspopulaires.service";
-import {VerbsTraductionService} from "../services/verbstraduction.service";
+import {VerbsTraduireService} from "../services/verbstraduire.service";
 
 @Component({
     selector: 'finder-form',
     templateUrl: 'app/templates/findergame.html',
     styleUrls: ['app/stylesheets/findergame.css'],
     directives: [CORE_DIRECTIVES],
-    providers:  [JSONP_PROVIDERS, VerbsService]
+    providers:  [VerbsService, VerbsTraduireService]
 })
 export class FinderGameComponent implements OnInit {
     game: GameDefinition;
@@ -31,12 +28,12 @@ export class FinderGameComponent implements OnInit {
     faseCompleta: boolean;
 
     verbs: VerbDefinition[];
-    traduires: VerbTraductionDefinition[];
-    populaires: string[];
-    randomVerb: string;
+    traduires: VerbeTraduiresDefinition[];
+    randomVerb: VerbeTraduiresDefinition;
     randomVerbDef: VerbDefinition;
 
     popseulement: boolean;
+    startgame: boolean;
     perfilRespostas: VerbDefinition;
 
     randomPronom: number;
@@ -49,16 +46,16 @@ export class FinderGameComponent implements OnInit {
 
 
     constructor (private verbsService: VerbsService,
-                 private verbsPopulaires: VerbsPopulairesService,
-                 private verbsTraduires: VerbsTraductionService,
-                 private router: Router,
+                 private verbsTraduires: VerbsTraduireService,
                  private menuService: MenuService) {
+        this.game = GameDefinition.newGame();
         this.perfilRespostas = VerbDefinition.newVerb();
         this.caixasResposta = LetterBoxDefinition.newLetterBox();
         this.respostaErrada = false;
         this.faseCompleta = false;
         this.close = new EventEmitter<string>();
         this.popseulement = true;
+        this.startgame = false;
     }
 
     routerOnActivate(curr: RouteSegment): void {
@@ -74,7 +71,7 @@ export class FinderGameComponent implements OnInit {
     }
 
     gotoMenu() {
-        this.router.navigate(['/home']);
+        //this.router.navigate(['/home']);
     }
 
     rightanswer() {
@@ -93,10 +90,6 @@ export class FinderGameComponent implements OnInit {
             .subscribe(
                 verbsList => this.verbs = verbsList,
                 error =>  this.errorMessage = <any>error);
-        this.verbsPopulaires.getPopulaires()
-            .subscribe(
-                verbsList => this.populaires = verbsList.verbes.reverse(),
-                error =>  this.errorMessage = <any>error);
         this.verbsTraduires.getTraductions()
             .subscribe(
                 verbsList => this.traduires = verbsList,
@@ -105,9 +98,9 @@ export class FinderGameComponent implements OnInit {
 
     getRandomVerb() {
         if (this.popseulement) {
-            this.randomVerb = this.populaires[Math.floor(Math.random() * this.populaires.length)];
-            this.verbs = this.verbs.filter(
-                (item, index) => (!item.verbe.indexOf(this.randomVerb)));
+            this.randomVerb = this.traduires[Math.floor(Math.random() * this.traduires.length)];
+            this.randomVerbDef = this.verbs.filter(
+                (item, index) => (!item.verbe.indexOf(this.randomVerb.verbe)))[0];
         }else{
             this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
         }
@@ -127,6 +120,7 @@ export class FinderGameComponent implements OnInit {
             this.generateRandomLetters(this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe)
         );
         this.faseCompleta = false;
+        this.startgame = true;
     }
 
     getNextVerb(pronom:number) {
