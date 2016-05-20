@@ -1,11 +1,10 @@
 "use strict";
-var finder_component_1 = require("./components/finder.component");
-var finderGame_component_1 = require("./components/finderGame.component");
-var finderForm_component_1 = require("./components/finderForm.component");
+var conjugueur_component_1 = require("./components/conjugueur.component");
+var configForm_component_1 = require("./components/configForm.component");
 exports.APP_ROUTES = [
-    { path: '/home', name: 'Home', component: finder_component_1.FinderComponent },
-    { path: '/jeux/:gameID', name: 'Jeux', component: finderGame_component_1.FinderGameComponent },
-    { path: '/administrateur', name: 'Admin', component: finderForm_component_1.FinderFormComponent }
+    { path: '/home', name: 'Home', component: conjugueur_component_1.ConjugueurComponent },
+    { path: '/help', name: 'Help', component: configForm_component_1.ConfigFormComponent },
+    { path: '/administrateur', name: 'Admin', component: configForm_component_1.ConfigFormComponent }
 ];
 /*
 *  { path: '/link/github',name:"Github", component: LinksComponent, imgSrc:"/assets/imagens/Github2-96.png", extLink:"https://github.com/leoalmeida/trabalhofinal"},

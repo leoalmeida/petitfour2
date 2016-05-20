@@ -17,7 +17,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var router_1 = require("@angular/router");
 var home_component_1 = require("./home.component");
-var finder_component_1 = require("./finder.component");
+var conjugueur_component_1 = require("./conjugueur.component");
 var MenuRouterComponent = (function () {
     function MenuRouterComponent(router) {
         this.router = router;
@@ -32,7 +32,7 @@ var MenuRouterComponent = (function () {
         }),
         router_1.Routes([
             { path: '', component: home_component_1.HomeComponent },
-            { path: '/finder', component: finder_component_1.FinderComponent }
+            { path: '/finder', component: conjugueur_component_1.ConjugueurComponent }
         ]), 
         __metadata('design:paramtypes', [router_1.Router])
     ], MenuRouterComponent);

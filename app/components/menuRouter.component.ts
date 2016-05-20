@@ -7,7 +7,7 @@
 import {Component} from '@angular/core';
 import {Routes, ROUTER_DIRECTIVES, Router} from "@angular/router";
 import {HomeComponent} from "./home.component";
-import {FinderComponent} from "./finder.component";
+import {ConjugueurComponent} from "./conjugueur.component";
 
 @Component({
     template:  `
@@ -21,7 +21,7 @@ import {FinderComponent} from "./finder.component";
 })
 @Routes([
     { path: '', component: HomeComponent},
-    { path: '/finder', component: FinderComponent}
+    { path: '/finder', component: ConjugueurComponent}
 ])
 export class MenuRouterComponent{
 

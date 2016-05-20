@@ -11,13 +11,13 @@ import {VerbFilterPipe} from "../filters/verb-filter.pipe";
 
 @Component({
     selector: 'finder',
-    templateUrl: 'app/templates/finderform.html',
-    //styleUrls: ['app/stylesheets/finderform.css'],
+    templateUrl: 'app/templates/configform.html',
+    //styleUrls: ['app/stylesheets/configform.css'],
     directives: [CORE_DIRECTIVES],
     providers:  [JSONP_PROVIDERS, VerbsService, VerbsTraduireService],
     pipes: [VerbFilterPipe]
 })
-export class FinderFormComponent implements OnInit {
+export class ConfigFormComponent implements OnInit {
     constructor (private verbsService: VerbsService,
                  private verbsTraduires: VerbsTraduireService) {
         this.popseulement = true;

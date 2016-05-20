@@ -1,7 +1,7 @@
 /**
  * Created by LeonardoAlmeida on 02/05/16.
  */
-import {Component, OnInit, EventEmitter, Output} from '@angular/core';
+import {Component, OnInit, OnChanges, SimpleChange, EventEmitter, Input, ChangeDetectionStrategy} from '@angular/core';
 import {CORE_DIRECTIVES} from '@angular/common';
 import {Router, RouteSegment} from '@angular/router';
 import {VerbsService} from "../services/verbs.service";
@@ -13,15 +13,18 @@ import {MenuService} from "../services/menu.service";
 import {VerbsTraduireService} from "../services/verbstraduire.service";
 
 @Component({
-    selector: 'finder-form',
-    templateUrl: 'app/templates/findergame.html',
-    styleUrls: ['app/stylesheets/findergame.css'],
+    selector: 'game-form',
+    templateUrl: 'app/templates/gameContainer.html',
+    styleUrls: ['app/stylesheets/gameContainer.css'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
     directives: [CORE_DIRECTIVES],
     providers:  [VerbsService, VerbsTraduireService]
 })
-export class FinderGameComponent implements OnInit {
-    game: GameDefinition;
+export class GameContainerComponent implements OnInit, OnChanges {
+    @Input() startgame: boolean;
+    @Input() gonext:boolean;
 
+    game: GameDefinition;
 
     errorMessage: string;
     respostaErrada: boolean;
@@ -33,14 +36,13 @@ export class FinderGameComponent implements OnInit {
     randomVerbDef: VerbDefinition;
 
     popseulement: boolean;
-    startgame: boolean;
     perfilRespostas: VerbDefinition;
 
     randomPronom: number;
     randomTense: number;
     randomPronomText: any;
 
-    @Output() close: EventEmitter<string>;
+    //@Output() close: EventEmitter<string>;
 
     caixasResposta: LetterBoxDefinition;
 
@@ -53,9 +55,10 @@ export class FinderGameComponent implements OnInit {
         this.caixasResposta = LetterBoxDefinition.newLetterBox();
         this.respostaErrada = false;
         this.faseCompleta = false;
-        this.close = new EventEmitter<string>();
+        //this.close = new EventEmitter<string>();
         this.popseulement = true;
-        this.startgame = false;
+        this.gonext = false;
+        this.getAllVerbs();
     }
 
     routerOnActivate(curr: RouteSegment): void {
@@ -70,15 +73,18 @@ export class FinderGameComponent implements OnInit {
 
     }
 
-    gotoMenu() {
-        //this.router.navigate(['/home']);
-    }
-
     rightanswer() {
         return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe === this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe);
     }
     letraCerta(letraResposta: number){
         return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe.split(''))[letraResposta];
+    }
+
+    ngOnChanges(changes: {[propName: string]: SimpleChange}) {
+        if (!changes['gonext'].isFirstChange()) {
+            this.getRandomVerb();
+            this.gonext = false;
+        }
     }
 
     ngOnInit() {
@@ -110,7 +116,7 @@ export class FinderGameComponent implements OnInit {
         this.randomPronomText = this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].pronom;
 
         this.perfilRespostas = VerbDefinition.newVerb();
-        this.perfilRespostas.verbe = FinderGameComponent.toCamel(this.randomVerbDef.verbe);
+        this.perfilRespostas.verbe = GameContainerComponent.toCamel(this.randomVerbDef.verbe);
         this.perfilRespostas.translationPT = this.randomVerbDef.translationPT;
         this.perfilRespostas.temps[this.randomTense].inflection = this.randomVerbDef.temps[this.randomTense].inflection;
         this.perfilRespostas.temps[this.randomTense].mode = this.randomVerbDef.temps[this.randomTense].mode;
@@ -124,7 +130,19 @@ export class FinderGameComponent implements OnInit {
     }
 
     getNextVerb(pronom:number) {
-        if (this.perfilRespostas.temps[this.randomTense].inflections[pronom].verbe == "") {
+        if (pronom==6) {
+            if (this.perfilRespostas.translationPT == ""){
+                this.caixasResposta = new LetterBoxDefinition(
+                    this.randomVerb.texteTraduit.toUpperCase().split(''),
+                    this.generateRandomLetters(this.randomVerb.texteTraduit)
+                );
+                this.faseCompleta = false;
+                this.respostaErrada = false;
+                this.randomPronom = pronom;
+                this.randomPronomText = "Traduction";
+
+            }
+        }else if (this.perfilRespostas.temps[this.randomTense].inflections[pronom].verbe == "") {
             this.caixasResposta = new LetterBoxDefinition(
                 this.randomVerbDef.temps[this.randomTense].inflections[pronom].verbe.toUpperCase().split(''),
                 this.generateRandomLetters(this.randomVerbDef.temps[this.randomTense].inflections[pronom].verbe)
@@ -132,7 +150,7 @@ export class FinderGameComponent implements OnInit {
             this.faseCompleta = false;
             this.respostaErrada = false;
             this.randomPronom = pronom;
-            this.randomPronomText = FinderGameComponent.toCamel(this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom);
+            this.randomPronomText = GameContainerComponent.toCamel(this.perfilRespostas.temps[this.randomTense].inflections[pronom].pronom);
         }
     }
 
@@ -194,20 +212,23 @@ export class FinderGameComponent implements OnInit {
 
     }
 
-    completeThisFase(){
-        this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe = this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe;
+    completeThisFase() {
+        if (this.randomPronom < 6)
+                this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe = this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe;
+        else this.perfilRespostas.translationPT = this.randomVerb.texteTraduit;
+
         this.faseCompleta = true;
         this.showAlert();
     }
 
     showAlert() {
-        this.close.emit("success-alert");
+        //this.close.emit("success-alert");
     }
 
     closeAlert(obj) {
         console.log("event caught" + obj.toString());
     }
-
+    
     static toCamel(verbo: string){
         return verbo.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
     }

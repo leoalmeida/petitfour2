@@ -17,21 +17,21 @@ var verbs_service_1 = require("../services/verbs.service");
 var http_1 = require('@angular/http');
 var verbstraduire_service_1 = require("../services/verbstraduire.service");
 var verb_filter_pipe_1 = require("../filters/verb-filter.pipe");
-var FinderFormComponent = (function () {
-    function FinderFormComponent(verbsService, verbsTraduires) {
+var ConfigFormComponent = (function () {
+    function ConfigFormComponent(verbsService, verbsTraduires) {
         this.verbsService = verbsService;
         this.verbsTraduires = verbsTraduires;
         this.popseulement = true;
     }
-    FinderFormComponent.prototype.ngOnInit = function () { this.getAllVerbs(); };
-    FinderFormComponent.prototype.getAllVerbs = function () {
+    ConfigFormComponent.prototype.ngOnInit = function () { this.getAllVerbs(); };
+    ConfigFormComponent.prototype.getAllVerbs = function () {
         var _this = this;
         this.verbsService.getVerbs()
             .subscribe(function (verbsList) { return _this.verbs = verbsList; }, function (error) { return _this.errorMessage = error; });
         this.verbsTraduires.getTraductions()
             .subscribe(function (verbsList) { return _this.traduires = verbsList; }, function (error) { return _this.errorMessage = error; });
     };
-    FinderFormComponent.prototype.getRandomVerb = function () {
+    ConfigFormComponent.prototype.getRandomVerb = function () {
         var _this = this;
         if (this.popseulement) {
             this.randomVerb = this.traduires[Math.floor(Math.random() * this.traduires.length)];
@@ -42,7 +42,7 @@ var FinderFormComponent = (function () {
             this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
         }
     };
-    FinderFormComponent.prototype.addVerbs = function (newVerb) {
+    ConfigFormComponent.prototype.addVerbs = function (newVerb) {
         var _this = this;
         if (!newVerb) {
             return;
@@ -50,18 +50,18 @@ var FinderFormComponent = (function () {
         this.verbsService.addVerb(newVerb)
             .subscribe(function (addedverb) { return _this.verbs.push(addedverb); }, function (error) { return _this.errorMessage = error; });
     };
-    FinderFormComponent = __decorate([
+    ConfigFormComponent = __decorate([
         core_1.Component({
             selector: 'finder',
-            templateUrl: 'app/templates/finderform.html',
-            //styleUrls: ['app/stylesheets/finderform.css'],
+            templateUrl: 'app/templates/configform.html',
+            //styleUrls: ['app/stylesheets/configform.css'],
             directives: [common_1.CORE_DIRECTIVES],
             providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService],
             pipes: [verb_filter_pipe_1.VerbFilterPipe]
         }), 
         __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService])
-    ], FinderFormComponent);
-    return FinderFormComponent;
+    ], ConfigFormComponent);
+    return ConfigFormComponent;
 }());
-exports.FinderFormComponent = FinderFormComponent;
-//# sourceMappingURL=finderForm.component.js.map
+exports.ConfigFormComponent = ConfigFormComponent;
+//# sourceMappingURL=configForm.component.js.map
