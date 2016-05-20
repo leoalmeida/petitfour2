@@ -72,18 +72,20 @@ CACHE:
 ../assets/imagens/petitfour.jpg
 ../assets/imagens/petitfour2.jpg
 ../app/templates/app.html
-../app/templates/finderform.html
-../app/templates/findergame.html
+../app/templates/configform.html
+../app/templates/conjugueur.html
+../app/templates/gamecontainer.html
 ../app/templates/home.html
 ../app/templates/info.html
+../app/templates/mainPage.html
 ../app/templates/navbar.html
-../app/stylesheets/findergame.css
+../app/stylesheets/conjugueur.css
 ../app/stylesheets/form.css
+../app/stylesheets/gameContainer.css
 ../app/stylesheets/home.css
 ../app/stylesheets/imagens.css
 ../app/stylesheets/info.css
 ../app/stylesheets/navbar.css
-../app/stylesheets/start.css
 ../app/stylesheets/table.css
 ../app/data/menu.json
 ../app/data/verbs.json
@@ -94,4 +96,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: d28ed8d3f47a34f40bc901f2b150b679d3ec2aba9e05ca215fdc76ac823e2398
+# hash: d2c1efe8111840c591da98e07199a61efd68c3192408d8861cbf5d381f73594a
