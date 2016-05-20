@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var navbar_component_1 = require("./components/navbar.component");
 var app_routes_1 = require("./app.routes");
 var AppComponent = (function () {
     function AppComponent(router) {
@@ -23,7 +22,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'main-app',
             templateUrl: 'app/templates/app.html',
-            directives: [navbar_component_1.NavbarComponent, router_1.ROUTER_DIRECTIVES]
+            directives: [router_1.ROUTER_DIRECTIVES]
         }),
         router_1.Routes(app_routes_1.APP_ROUTES), 
         __metadata('design:paramtypes', [router_1.Router])
