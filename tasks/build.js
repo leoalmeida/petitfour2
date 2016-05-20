@@ -12,6 +12,9 @@ var manifest = require('gulp-manifest');
 var mergeStream = require('merge-stream');
 var path = require('path');
 
+gulp.task('heroku:production', function (done) {
+    runSequence('build-sjs', 'build-assets', 'build-manifest', done);
+});
 
 /* Prepare build using SystemJS Builder */
 gulp.task('build', function (done) {
