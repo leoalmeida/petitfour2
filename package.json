@@ -69,6 +69,7 @@
     "traceur": "~0.0.108",
     "typings": "^1.0.3",
     "yargs": "^4.7.1",
-    "merge-stream": "^1.0.0"
+    "merge-stream": "^1.0.0",
+    "connect-logger": "^0.0.1"
   }
 }
