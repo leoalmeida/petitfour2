@@ -12,7 +12,7 @@
     "url": "https://github.com/leoalmeida/petitfour2.git"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node main",
     "postinstall": "gulp build"
   },
   "keywords": [
