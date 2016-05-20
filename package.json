@@ -12,7 +12,8 @@
     "url": "https://github.com/leoalmeida/petitfour2.git"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "keywords": [
     "@angular",
