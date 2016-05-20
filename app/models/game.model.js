@@ -14,6 +14,9 @@ var GameDefinition = (function () {
     GameDefinition.prototype.filter = function (list, filterOption) {
         return list;
     };
+    GameDefinition.newGame = function () {
+        return new GameDefinition(1, "Def", "", "", 18, 1);
+    };
     return GameDefinition;
 }());
 exports.GameDefinition = GameDefinition;

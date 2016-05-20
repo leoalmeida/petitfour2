@@ -8,9 +8,7 @@ import {APP_ROUTES} from "./app.routes";
 @Component({
     selector: 'main-app',
     templateUrl: 'app/templates/app.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    directives: [NavbarComponent,ROUTER_DIRECTIVES],
-    providers: [MenuService]
+    directives: [NavbarComponent, ROUTER_DIRECTIVES]
 })
 @Routes(APP_ROUTES)
 export class AppComponent implements OnInit {

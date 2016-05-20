@@ -15,13 +15,11 @@ var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var verbs_service_1 = require("../services/verbs.service");
 var http_1 = require('@angular/http');
-var verbstraduction_service_1 = require("../services/verbstraduction.service");
-var verbspopulaires_service_1 = require("../services/verbspopulaires.service");
+var verbstraduire_service_1 = require("../services/verbstraduire.service");
 var verb_filter_pipe_1 = require("../filters/verb-filter.pipe");
 var FinderFormComponent = (function () {
-    function FinderFormComponent(verbsService, verbsPopulaires, verbsTraduires) {
+    function FinderFormComponent(verbsService, verbsTraduires) {
         this.verbsService = verbsService;
-        this.verbsPopulaires = verbsPopulaires;
         this.verbsTraduires = verbsTraduires;
         this.popseulement = true;
     }
@@ -30,17 +28,15 @@ var FinderFormComponent = (function () {
         var _this = this;
         this.verbsService.getVerbs()
             .subscribe(function (verbsList) { return _this.verbs = verbsList; }, function (error) { return _this.errorMessage = error; });
-        this.verbsPopulaires.getPopulaires()
-            .subscribe(function (verbsList) { return _this.populaires = verbsList.verbes.reverse(); }, function (error) { return _this.errorMessage = error; });
         this.verbsTraduires.getTraductions()
             .subscribe(function (verbsList) { return _this.traduires = verbsList; }, function (error) { return _this.errorMessage = error; });
     };
     FinderFormComponent.prototype.getRandomVerb = function () {
         var _this = this;
         if (this.popseulement) {
-            this.randomVerb = this.populaires[Math.floor(Math.random() * this.populaires.length)];
+            this.randomVerb = this.traduires[Math.floor(Math.random() * this.traduires.length)];
             //this.find(this.verbs, this.randomVerb).then(item => this.randomVerbDef = item);
-            this.verbs = this.verbs.filter(function (item, index) { return (!item.verbe.indexOf(_this.randomVerb)); });
+            this.verbs = this.verbs.filter(function (item, index) { return (!item.verbe.indexOf(_this.randomVerb.verbe)); });
         }
         else {
             this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
@@ -60,10 +56,10 @@ var FinderFormComponent = (function () {
             templateUrl: 'app/templates/finderform.html',
             //styleUrls: ['app/stylesheets/finderform.css'],
             directives: [common_1.CORE_DIRECTIVES],
-            providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService, verbspopulaires_service_1.VerbsPopulairesService, verbstraduction_service_1.VerbsTraductionService],
+            providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService],
             pipes: [verb_filter_pipe_1.VerbFilterPipe]
         }), 
-        __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbspopulaires_service_1.VerbsPopulairesService, verbstraduction_service_1.VerbsTraductionService])
+        __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService])
     ], FinderFormComponent);
     return FinderFormComponent;
 }());

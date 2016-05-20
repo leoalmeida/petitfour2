@@ -13,26 +13,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
-var router_1 = require('@angular/router');
 var verbs_service_1 = require("../services/verbs.service");
 var verb_model_1 = require("../models/verb.model");
-var http_1 = require('@angular/http');
+var game_model_1 = require("../models/game.model");
 var menu_service_1 = require("../services/menu.service");
-var verbspopulaires_service_1 = require("../services/verbspopulaires.service");
-var verbstraduction_service_1 = require("../services/verbstraduction.service");
+var verbstraduire_service_1 = require("../services/verbstraduire.service");
 var FinderGameComponent = (function () {
-    function FinderGameComponent(verbsService, verbsPopulaires, verbsTraduires, router, menuService) {
+    function FinderGameComponent(verbsService, verbsTraduires, menuService) {
         this.verbsService = verbsService;
-        this.verbsPopulaires = verbsPopulaires;
         this.verbsTraduires = verbsTraduires;
-        this.router = router;
         this.menuService = menuService;
+        this.game = game_model_1.GameDefinition.newGame();
         this.perfilRespostas = verb_model_1.VerbDefinition.newVerb();
         this.caixasResposta = verb_model_1.LetterBoxDefinition.newLetterBox();
         this.respostaErrada = false;
         this.faseCompleta = false;
         this.close = new core_1.EventEmitter();
         this.popseulement = true;
+        this.startgame = false;
     }
     FinderGameComponent.prototype.routerOnActivate = function (curr) {
         var _this = this;
@@ -45,7 +43,7 @@ var FinderGameComponent = (function () {
         }); }, function (error) { return _this.errorMessage = error; });
     };
     FinderGameComponent.prototype.gotoMenu = function () {
-        this.router.navigate(['/home']);
+        //this.router.navigate(['/home']);
     };
     FinderGameComponent.prototype.rightanswer = function () {
         return (this.perfilRespostas.temps[this.randomTense].inflections[this.randomPronom].verbe === this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe);
@@ -60,16 +58,14 @@ var FinderGameComponent = (function () {
         var _this = this;
         this.verbsService.getVerbs()
             .subscribe(function (verbsList) { return _this.verbs = verbsList; }, function (error) { return _this.errorMessage = error; });
-        this.verbsPopulaires.getPopulaires()
-            .subscribe(function (verbsList) { return _this.populaires = verbsList.verbes.reverse(); }, function (error) { return _this.errorMessage = error; });
         this.verbsTraduires.getTraductions()
             .subscribe(function (verbsList) { return _this.traduires = verbsList; }, function (error) { return _this.errorMessage = error; });
     };
     FinderGameComponent.prototype.getRandomVerb = function () {
         var _this = this;
         if (this.popseulement) {
-            this.randomVerb = this.populaires[Math.floor(Math.random() * this.populaires.length)];
-            this.verbs = this.verbs.filter(function (item, index) { return (!item.verbe.indexOf(_this.randomVerb)); });
+            this.randomVerb = this.traduires[Math.floor(Math.random() * this.traduires.length)];
+            this.randomVerbDef = this.verbs.filter(function (item, index) { return (!item.verbe.indexOf(_this.randomVerb.verbe)); })[0];
         }
         else {
             this.randomVerbDef = this.verbs[Math.floor(Math.random() * this.verbs.length)];
@@ -85,6 +81,7 @@ var FinderGameComponent = (function () {
         this.perfilRespostas.temps[this.randomTense].mode = this.randomVerbDef.temps[this.randomTense].mode;
         this.caixasResposta = new verb_model_1.LetterBoxDefinition(this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe.toUpperCase().split(''), this.generateRandomLetters(this.randomVerbDef.temps[this.randomTense].inflections[this.randomPronom].verbe));
         this.faseCompleta = false;
+        this.startgame = true;
     };
     FinderGameComponent.prototype.getNextVerb = function (pronom) {
         if (this.perfilRespostas.temps[this.randomTense].inflections[pronom].verbe == "") {
@@ -168,9 +165,9 @@ var FinderGameComponent = (function () {
             templateUrl: 'app/templates/findergame.html',
             styleUrls: ['app/stylesheets/findergame.css'],
             directives: [common_1.CORE_DIRECTIVES],
-            providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService]
+            providers: [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService]
         }), 
-        __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbspopulaires_service_1.VerbsPopulairesService, verbstraduction_service_1.VerbsTraductionService, router_1.Router, menu_service_1.MenuService])
+        __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService, menu_service_1.MenuService])
     ], FinderGameComponent);
     return FinderGameComponent;
 }());

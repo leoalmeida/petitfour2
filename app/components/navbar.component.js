@@ -21,7 +21,6 @@ var NavbarComponent = (function () {
             selector: 'navbar',
             templateUrl: 'app/templates/navbar.html',
             styleUrls: ['app/stylesheets/navbar.css'],
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             directives: [common_1.CORE_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
