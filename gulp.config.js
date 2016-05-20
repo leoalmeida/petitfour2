@@ -44,7 +44,7 @@ module.exports = function () {
     };
     var browserSync = {
         dev: {
-            port: process.env.PORT || 3000,
+            port: process.env.PORT || 5000,
             ui: {
                 port: 3002
             },
@@ -62,7 +62,7 @@ module.exports = function () {
             ]
         },
         prod: {
-            port: process.env.PORT || 80,
+            port: process.env.PORT || 8080,
             ui: {
                 port: 8081
             },
