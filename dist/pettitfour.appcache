@@ -72,9 +72,9 @@ CACHE:
 ../assets/imagens/petitfour.jpg
 ../assets/imagens/petitfour2.jpg
 ../app/templates/app.html
-../app/templates/configform.html
+../app/templates/configForm.html
 ../app/templates/conjugueur.html
-../app/templates/gamecontainer.html
+../app/templates/gameContainer.html
 ../app/templates/home.html
 ../app/templates/info.html
 ../app/templates/mainPage.html
