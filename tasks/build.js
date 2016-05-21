@@ -102,7 +102,7 @@ gulp.task('build-manifest', function(){
             timestamp: true,
             network: ['*'],
             filename: 'pettitfour.appcache',
-            exclude: 'app.manifest'
+            exclude: 'pettitfour.appcache'
         }))
         .pipe(gulp.dest('dist'));
 });
