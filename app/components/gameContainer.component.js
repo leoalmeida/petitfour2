@@ -160,6 +160,7 @@ var GameContainerComponent = (function () {
         else
             this.perfilRespostas.translationPT = this.randomVerb.texteTraduit;
         this.faseCompleta = true;
+        this.ponctuation += 100;
         this.showAlert();
     };
     GameContainerComponent.prototype.showAlert = function () {
@@ -179,6 +180,10 @@ var GameContainerComponent = (function () {
         core_1.Input(), 
         __metadata('design:type', Boolean)
     ], GameContainerComponent.prototype, "gonext", void 0);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Number)
+    ], GameContainerComponent.prototype, "ponctuation", void 0);
     GameContainerComponent = __decorate([
         core_1.Component({
             selector: 'game-form',

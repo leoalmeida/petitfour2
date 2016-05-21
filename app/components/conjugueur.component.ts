@@ -1,7 +1,7 @@
 /**
  * Created by LeonardoAlmeida on 07/05/16.
  */
-import { Component, OnInit}            from '@angular/core';
+import { Component, OnInit, Input}            from '@angular/core';
 import { ROUTER_PROVIDERS } from '@angular/router';
 //import { JSONP_PROVIDERS }      from '@angular/http';
 //import {ConfigFormComponent} from "./finderForm.component";
@@ -23,8 +23,12 @@ import {MainPageComponent} from "./mainPage.component";
 export class ConjugueurComponent{
     startgame: boolean;
     gonext: boolean;
+    menuBarOpen: boolean;
+    @Input() ponctuation: number;
     constructor(){
         this.startgame = false;
+        this.ponctuation = 0;
+        this.menuBarOpen = false;
     }
 
     gotoMenu() {
@@ -34,6 +38,10 @@ export class ConjugueurComponent{
     startGame(){
         this.gonext = !this.gonext;
         if (!this.startgame) this.startgame = true;
+    }
+
+    toggle(){
+        this.menuBarOpen = !this.menuBarOpen;
     }
 
 }

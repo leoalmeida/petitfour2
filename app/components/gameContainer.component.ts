@@ -23,6 +23,7 @@ import {VerbsTraduireService} from "../services/verbstraduire.service";
 export class GameContainerComponent implements OnInit, OnChanges {
     @Input() startgame: boolean;
     @Input() gonext:boolean;
+    @Input() ponctuation: number;
 
     game: GameDefinition;
 
@@ -218,6 +219,7 @@ export class GameContainerComponent implements OnInit, OnChanges {
         else this.perfilRespostas.translationPT = this.randomVerb.texteTraduit;
 
         this.faseCompleta = true;
+        this.ponctuation += 100;
         this.showAlert();
     }
 
@@ -228,7 +230,7 @@ export class GameContainerComponent implements OnInit, OnChanges {
     closeAlert(obj) {
         console.log("event caught" + obj.toString());
     }
-    
+
     static toCamel(verbo: string){
         return verbo.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
     }

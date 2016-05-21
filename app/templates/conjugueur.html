@@ -1,16 +1,21 @@
 <main-form  *ngIf="!startgame"></main-form>
-<game-form [startgame]="startgame" [gonext]="gonext"></game-form>
+<game-form [startgame]="startgame" [gonext]="gonext" [(ponctuation)]="ponctuation"></game-form>
 
-<div id="menu-bottom">
+<div id="menu-bottom"  *ngIf="menuBarOpen || !startgame" >
+
     <a id="fixed-btn-start" (click)="startGame()" class="botao-icon botao-success botao-grande botao-shadow img-circle">
         <i class="fa fa-play fa-fw" aria-hidden="true" *ngIf="!startgame"></i>
         <i class="fa fa-flag-o fa-fw" aria-hidden="true" *ngIf="startgame"></i>
     </a>
-                <span id="fixed-label-points">
-                    <h1 class="information">100</h1>
-                    <h3 class="information">Pontos</h3>
-                </span>
-    <a id="fixed-btn-menu" (click)="gotoMenu()" class="botao-icon botao-default botao-grande botao-shadow img-circle">
+    <span id="fixed-label-points">
+        <h1 class="information">{{ponctuation}} Pontos</h1>
+    </span>
+    <!--<a id="fixed-btn-menu" (click)="gotoMenu()" class="botao-icon botao-default botao-grande botao-shadow img-circle">
         <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
-    </a>
+    </a>-->
+
 </div>
+
+<a id="fixed-btn-start" (click)="toggle()" class="menu-toggle" *ngIf="startgame">
+    <i class="fa fa-bars fa-fw" aria-hidden="true" ></i>
+</a>

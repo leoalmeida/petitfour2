@@ -23,6 +23,8 @@ var mainPage_component_1 = require("./mainPage.component");
 var ConjugueurComponent = (function () {
     function ConjugueurComponent() {
         this.startgame = false;
+        this.ponctuation = 0;
+        this.menuBarOpen = false;
     }
     ConjugueurComponent.prototype.gotoMenu = function () {
         this.startgame = false;
@@ -32,6 +34,13 @@ var ConjugueurComponent = (function () {
         if (!this.startgame)
             this.startgame = true;
     };
+    ConjugueurComponent.prototype.toggle = function () {
+        this.menuBarOpen = !this.menuBarOpen;
+    };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Number)
+    ], ConjugueurComponent.prototype, "ponctuation", void 0);
     ConjugueurComponent = __decorate([
         core_1.Component({
             selector: 'main-app',

@@ -6072,9 +6072,9 @@ button.close {
   -webkit-margin-before: .1em;
   -webkit-margin-after: .1em;
   border-radius: 10px;
-  background-image: -webkit-linear-gradient(#6d7070, #474949 50%, #3d3f3f);
-  background-image: -o-linear-gradient(#6d7070, #474949 50%, #3d3f3f);
-  background-image: linear-gradient(#6d7070, #474949 50%, #3d3f3f);
+  background: -webkit-linear-gradient(rgba(109, 112, 112, 0.7), rgba(71, 73, 73, 0.7) 50%, rgba(61, 63, 63, 0.7));
+  background: -o-linear-gradient(rgba(109, 112, 112, 0.7), rgba(71, 73, 73, 0.7) 50%, rgba(61, 63, 63, 0.7));
+  background: linear-gradient(rgba(109, 112, 112, 0.7), rgba(71, 73, 73, 0.7) 50%, rgba(61, 63, 63, 0.7));
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6D7070', endColorstr='#FF3D3F3F', GradientType=0);
   filter: none;

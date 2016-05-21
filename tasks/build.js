@@ -99,6 +99,7 @@ gulp.task('build-manifest', function(){
     ).pipe(manifest({
             hash: true,
             preferOnline: true,
+            timestamp: true,
             network: ['*'],
             filename: 'pettitfour.appcache',
             exclude: 'app.manifest'

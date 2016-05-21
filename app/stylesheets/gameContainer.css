@@ -53,11 +53,20 @@ ul{ list-style:none; padding:0; margin: 0;}
     text-transform: capitalize;
     font-weight: bolder;
     font-size: 2em;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
 }
 
 #painelRespostas{
     color: #393;
     background: #dfd;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+#painel{
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
 }
 
 .accesskey{
