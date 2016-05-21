@@ -11,8 +11,8 @@ import {VerbFilterPipe} from "../filters/verb-filter.pipe";
 
 @Component({
     selector: 'finder',
-    templateUrl: 'app/templates/configform.html',
-    //styleUrls: ['app/stylesheets/configform.css'],
+    templateUrl: 'app/templates/configForm.html',
+    //styleUrls: ['app/stylesheets/configForm.css'],
     directives: [CORE_DIRECTIVES],
     providers:  [JSONP_PROVIDERS, VerbsService, VerbsTraduireService],
     pipes: [VerbFilterPipe]

@@ -53,8 +53,8 @@ var ConfigFormComponent = (function () {
     ConfigFormComponent = __decorate([
         core_1.Component({
             selector: 'finder',
-            templateUrl: 'app/templates/configform.html',
-            //styleUrls: ['app/stylesheets/configform.css'],
+            templateUrl: 'app/templates/configForm.html',
+            //styleUrls: ['app/stylesheets/configForm.css'],
             directives: [common_1.CORE_DIRECTIVES],
             providers: [http_1.JSONP_PROVIDERS, verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService],
             pipes: [verb_filter_pipe_1.VerbFilterPipe]
