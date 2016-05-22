@@ -60,7 +60,7 @@ var GameContainerComponent = (function () {
     };
     GameContainerComponent.prototype.askforhelp = function () {
         for (var currentIndex = 0; currentIndex < this.caixasResposta.verbLetters.length; currentIndex++) {
-            if (this.caixasResposta.answeredLetters[currentIndex] == "_") {
+            if (this.caixasResposta.answeredLetters[currentIndex] == "") {
                 if (currentIndex % 2 == 0) {
                     this.caixasResposta.answeredLetters[currentIndex] = this.caixasResposta.verbLetters[currentIndex];
                     this.caixasResposta.answerLength++;

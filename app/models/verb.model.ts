@@ -70,7 +70,7 @@ export class LetterBoxDefinition {
         this.answeredLetters = [];
         for (var index = 0; index < listLetters.length; index++) {
             this.usedLetters[index]=false;
-            if (index < verbLetters.length) this.answeredLetters[index]="_";
+            if (index < verbLetters.length) this.answeredLetters[index]="";
         }
     }
 
