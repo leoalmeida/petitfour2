@@ -31,27 +31,11 @@
     z-index: 2000;
 }
 
-.menu-toggle {
-    display: block;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-
-    margin-right: 15px;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-
-    background-color: transparent;
-    background-image: none;
-
-    border: 1px solid transparent;
-
-    z-index: 3000;
-}
-
-.menu-toggle:focus {
-    outline: 0;
+.menu-fixed {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 /*@media (min-width: 768px) {

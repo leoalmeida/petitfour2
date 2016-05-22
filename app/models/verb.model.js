@@ -70,7 +70,7 @@ var LetterBoxDefinition = (function () {
         for (var index = 0; index < listLetters.length; index++) {
             this.usedLetters[index] = false;
             if (index < verbLetters.length)
-                this.answeredLetters[index] = "";
+                this.answeredLetters[index] = "_";
         }
     }
     LetterBoxDefinition.newLetterBox = function () {

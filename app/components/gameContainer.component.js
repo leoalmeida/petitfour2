@@ -58,6 +58,22 @@ var GameContainerComponent = (function () {
     GameContainerComponent.prototype.ngOnInit = function () {
         this.getAllVerbs();
     };
+    GameContainerComponent.prototype.askforhelp = function () {
+        for (var currentIndex = 0; currentIndex < this.caixasResposta.verbLetters.length; currentIndex++) {
+            if (this.caixasResposta.answeredLetters[currentIndex] == "_") {
+                if (currentIndex % 2 == 0) {
+                    this.caixasResposta.answeredLetters[currentIndex] = this.caixasResposta.verbLetters[currentIndex];
+                    this.caixasResposta.answerLength++;
+                    for (var indexLetraTentativa = 0; indexLetraTentativa < this.caixasResposta.listLetters.length; indexLetraTentativa++) {
+                        if (!this.caixasResposta.usedLetters[indexLetraTentativa] && this.caixasResposta.listLetters[indexLetraTentativa] == this.caixasResposta.verbLetters[currentIndex]) {
+                            this.caixasResposta.usedLetters[indexLetraTentativa] = true;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    };
     GameContainerComponent.prototype.getAllVerbs = function () {
         var _this = this;
         this.verbsService.getVerbs()
@@ -190,7 +206,7 @@ var GameContainerComponent = (function () {
             templateUrl: 'app/templates/gameContainer.html',
             styleUrls: ['app/stylesheets/gameContainer.css'],
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
-            directives: [common_1.CORE_DIRECTIVES],
+            directives: [common_1.CORE_DIRECTIVES, common_1.FORM_DIRECTIVES],
             providers: [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService]
         }), 
         __metadata('design:paramtypes', [verbs_service_1.VerbsService, verbstraduire_service_1.VerbsTraduireService, menu_service_1.MenuService])

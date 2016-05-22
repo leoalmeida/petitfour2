@@ -2,7 +2,7 @@
  * Created by LeonardoAlmeida on 02/05/16.
  */
 import {Component, OnInit, OnChanges, SimpleChange, EventEmitter, Input, ChangeDetectionStrategy} from '@angular/core';
-import {CORE_DIRECTIVES} from '@angular/common';
+import {CORE_DIRECTIVES, FORM_DIRECTIVES} from '@angular/common';
 import {Router, RouteSegment} from '@angular/router';
 import {VerbsService} from "../services/verbs.service";
 import {VerbDefinition, LetterBoxDefinition, VerbeTraduiresDefinition
@@ -12,12 +12,13 @@ import { JSONP_PROVIDERS }  from '@angular/http';
 import {MenuService} from "../services/menu.service";
 import {VerbsTraduireService} from "../services/verbstraduire.service";
 
+
 @Component({
     selector: 'game-form',
     templateUrl: 'app/templates/gameContainer.html',
     styleUrls: ['app/stylesheets/gameContainer.css'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    directives: [CORE_DIRECTIVES],
+    directives: [CORE_DIRECTIVES, FORM_DIRECTIVES],
     providers:  [VerbsService, VerbsTraduireService]
 })
 export class GameContainerComponent implements OnInit, OnChanges {
@@ -90,6 +91,23 @@ export class GameContainerComponent implements OnInit, OnChanges {
 
     ngOnInit() {
         this.getAllVerbs();
+    }
+
+    askforhelp(){
+      for (var currentIndex = 0; currentIndex < this.caixasResposta.verbLetters.length; currentIndex++){
+        if (this.caixasResposta.answeredLetters[currentIndex] == "_"){
+          if (currentIndex%2 == 0){
+            this.caixasResposta.answeredLetters[currentIndex] = this.caixasResposta.verbLetters[currentIndex];
+            this.caixasResposta.answerLength++;
+            for (var indexLetraTentativa = 0; indexLetraTentativa < this.caixasResposta.listLetters.length; indexLetraTentativa++){
+              if (!this.caixasResposta.usedLetters[indexLetraTentativa] && this.caixasResposta.listLetters[indexLetraTentativa] == this.caixasResposta.verbLetters[currentIndex]){
+                  this.caixasResposta.usedLetters[indexLetraTentativa] = true;
+                  break;
+              }
+            }
+          }
+        }
+      }
     }
 
     getAllVerbs() {
@@ -234,5 +252,4 @@ export class GameContainerComponent implements OnInit, OnChanges {
     static toCamel(verbo: string){
         return verbo.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
     }
-
 }

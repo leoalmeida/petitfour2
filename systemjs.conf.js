@@ -14,14 +14,16 @@
     var map = {
         'app': 'app',
         'rxjs': 'n:rxjs',
-	'@angular': 'n:@angular',
-        'lodash': 'n:lodash'
+	      '@angular': 'n:@angular',
+        'lodash': 'n:lodash',
+        'moment': 'n:moment'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
     var packages = {
         'app': {defaultExtension: 'js'},
-        'rxjs': {defaultExtension: 'js'}
+        'rxjs': {defaultExtension: 'js'},
+        'moment': {main: 'moment.js',defaultExtension: 'js'},
     };
 
     var packageNames = [

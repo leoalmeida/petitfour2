@@ -7,41 +7,19 @@ var rev = require('gulp-rev');
 var revReplace = require('gulp-rev-replace');
 var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
-var Builder = require('systemjs-builder');
 var manifest = require('gulp-manifest');
 var mergeStream = require('merge-stream');
 var path = require('path');
 
+require('ngstarter-systemjs-tasks');
+
 gulp.task('heroku:production', function (done) {
-    runSequence('build-sjs', 'build-assets', 'build-manifest', done);
+    runSequence('build-systemjs', 'build-assets', 'build-manifest', done);
 });
 
 /* Prepare build using SystemJS Builder */
 gulp.task('build', function (done) {
-    runSequence('build-sjs', 'build-assets', 'build-manifest', done);
-});
-
-
-gulp.task('build-sjs', function (done) {
-    runSequence('tsc-app', buildSJS);
-    function buildSJS () {
-        var builder = new Builder();
-        builder.loadConfig('./systemjs.conf.js')
-            .then(function() {
-                return builder
-                    .buildStatic(config.app + 'main.js',
-                        config.tmp + config.app + 'bundle.js',
-                        config.systemJs.builder);
-            })
-            .then(function() {
-                console.log('Build complete');
-                done();
-            })
-            .catch(function (ex) {
-                console.log('error', ex);
-                done('Build failed.');
-            });
-    }
+    runSequence('build-systemjs', 'build-assets', 'build-manifest', done);
 });
 
 /* Concat and minify/uglify all css, js, and copy fonts */
