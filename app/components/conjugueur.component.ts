@@ -7,6 +7,7 @@ import { ROUTER_PROVIDERS } from '@angular/router';
 //import {ConfigFormComponent} from "./finderForm.component";
 import {GameContainerComponent} from "./gameContainer.component";
 import {MainPageComponent} from "./mainPage.component";
+import {FacebookLoginComponent} from "./facebookLogin.component";
 
 //import { provide }              from '@angular/core';
 //import { XHRBackend, HTTP_PROVIDERS }           from '@angular/http';
@@ -18,9 +19,12 @@ import {MainPageComponent} from "./mainPage.component";
     selector: 'main-app',
     templateUrl: 'app/templates/conjugueur.html',
     styleUrls: ['app/stylesheets/conjugueur.css'],
-    directives: [MainPageComponent, GameContainerComponent]
+    directives: [FacebookLoginComponent, MainPageComponent, GameContainerComponent]
 })
 export class ConjugueurComponent{
+    name=""
+    isUser = false
+
     startgame: boolean;
     gonext: boolean;
     menuBarOpen: boolean;

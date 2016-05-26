@@ -22,12 +22,15 @@ require('rxjs/add/operator/debounceTime');
 require('rxjs/add/operator/distinctUntilChanged');
 require('rxjs/add/operator/switchMap');
 require('rxjs/add/operator/do'); // debug
-require('rxjs/add/operator/catch');
+// import 'rxjs/add/operator/catch';
 var items_service_1 = require("../services/items.service");
+var facebookLogin_component_1 = require('./facebookLogin.component');
 var HomeComponent = (function () {
-    function HomeComponent(service, router) {
-        this.service = service;
+    function HomeComponent(router, service) {
         this.router = router;
+        this.service = service;
+        this.name = "";
+        this.isUser = false;
         this.showSearch = false;
         this.searchText = new common_1.Control('');
         this.searchTermStream = new Subject_1.Subject();
@@ -56,17 +59,16 @@ var HomeComponent = (function () {
     };
     HomeComponent.prototype.ngOnInit = function () {
         this.getAllMenuItems();
-        //this.service.search("");
     };
     HomeComponent = __decorate([
         core_1.Component({
             selector: 'painel',
             templateUrl: 'app/templates/home.html',
             styleUrls: ['app/stylesheets/home.css'],
-            directives: [common_1.CORE_DIRECTIVES, common_1.FORM_DIRECTIVES],
+            directives: [facebookLogin_component_1.FacebookLoginComponent, common_1.CORE_DIRECTIVES, common_1.FORM_DIRECTIVES],
             providers: [http_1.JSONP_PROVIDERS, items_service_1.ItemsService]
         }), 
-        __metadata('design:paramtypes', [items_service_1.ItemsService, router_1.Router])
+        __metadata('design:paramtypes', [router_1.Router, items_service_1.ItemsService])
     ], HomeComponent);
     return HomeComponent;
 }());

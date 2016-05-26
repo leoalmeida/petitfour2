@@ -16,12 +16,15 @@ var core_1 = require('@angular/core');
 //import {ConfigFormComponent} from "./finderForm.component";
 var gameContainer_component_1 = require("./gameContainer.component");
 var mainPage_component_1 = require("./mainPage.component");
+var facebookLogin_component_1 = require("./facebookLogin.component");
 //import { provide }              from '@angular/core';
 //import { XHRBackend, HTTP_PROVIDERS }           from '@angular/http';
 //import { InMemoryBackendService,  SEED_DATA }   from 'angular2-in-memory-web-api/core';
 //import {VerbsData} from "../data/verbs-data";
 var ConjugueurComponent = (function () {
     function ConjugueurComponent() {
+        this.name = "";
+        this.isUser = false;
         this.startgame = false;
         this.ponctuation = 0;
         this.menuBarOpen = false;
@@ -46,7 +49,7 @@ var ConjugueurComponent = (function () {
             selector: 'main-app',
             templateUrl: 'app/templates/conjugueur.html',
             styleUrls: ['app/stylesheets/conjugueur.css'],
-            directives: [mainPage_component_1.MainPageComponent, gameContainer_component_1.GameContainerComponent]
+            directives: [facebookLogin_component_1.FacebookLoginComponent, mainPage_component_1.MainPageComponent, gameContainer_component_1.GameContainerComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], ConjugueurComponent);

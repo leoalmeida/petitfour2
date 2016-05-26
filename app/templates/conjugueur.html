@@ -1,21 +1,28 @@
-<main-form  *ngIf="!startgame"></main-form>
-<game-form [startgame]="startgame" [gonext]="gonext" [(ponctuation)]="ponctuation"></game-form>
+<div *ngIf="isUser">
+    <h2> Welcome {{name}} </h2>
 
-<div id="menu-bottom"  *ngIf="menuBarOpen || !startgame" >
+    <game-form *ngIf="isUser" [startgame]="startgame" [gonext]="gonext" [(ponctuation)]="ponctuation"></game-form>
 
-    <a id="fixed-btn-start" (click)="startGame()" class="botao-icon botao-success botao-grande botao-shadow img-circle">
-        <i class="fa fa-play fa-fw" aria-hidden="true" *ngIf="!startgame"></i>
-        <i class="fa fa-flag-o fa-fw" aria-hidden="true" *ngIf="startgame"></i>
+    <div id="menu-bottom"  *ngIf="menuBarOpen || !startgame" >
+
+        <a id="fixed-btn-start" (click)="startGame()" class="botao-icon botao-success botao-grande botao-shadow img-circle">
+            <i class="fa fa-play fa-fw" aria-hidden="true" *ngIf="!startgame"></i>
+            <i class="fa fa-flag-o fa-fw" aria-hidden="true" *ngIf="startgame"></i>
+        </a>
+        <span id="fixed-label-points">
+            <h1 class="information">{{ponctuation}} Pontos</h1>
+        </span>
+        <!--<a id="fixed-btn-menu" (click)="gotoMenu()" class="botao-icon botao-default botao-grande botao-shadow img-circle">
+            <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+        </a>-->
+
+    </div>
+
+    <a id="fixed-btn-start" (click)="toggle()" class="menu-toggle menu-fixed" *ngIf="startgame">
+        <i class="fa fa-bars fa-fw" aria-hidden="true" ></i>
     </a>
-    <span id="fixed-label-points">
-        <h1 class="information">{{ponctuation}} Pontos</h1>
-    </span>
-    <!--<a id="fixed-btn-menu" (click)="gotoMenu()" class="botao-icon botao-default botao-grande botao-shadow img-circle">
-        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
-    </a>-->
 
 </div>
 
-<a id="fixed-btn-start" (click)="toggle()" class="menu-toggle menu-fixed" *ngIf="startgame">
-    <i class="fa fa-bars fa-fw" aria-hidden="true" ></i>
-</a>
+<main-form *ngIf="!startgame"></main-form>
+<facebook-login></facebook-login>

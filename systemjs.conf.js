@@ -16,7 +16,8 @@
         'rxjs': 'n:rxjs',
 	      '@angular': 'n:@angular',
         'lodash': 'n:lodash',
-        'moment': 'n:moment'
+        'moment': 'n:moment',
+        'ng2-facebook': 'n:ng2-facebook'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
@@ -24,6 +25,7 @@
         'app': {defaultExtension: 'js'},
         'rxjs': {defaultExtension: 'js'},
         'moment': {main: 'moment.js',defaultExtension: 'js'},
+        'ng2-facebook': {format: 'register', defaultExtension: 'js'}
     };
 
     var packageNames = [

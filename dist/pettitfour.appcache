@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Sun May 22 2016 13:33:42 GMT-0300 (BRT)
+# Time: Thu May 26 2016 15:46:05 GMT-0300 (BRT)
 
 CACHE:
 ../index.html
@@ -75,6 +75,7 @@ CACHE:
 ../app/templates/app.html
 ../app/templates/configForm.html
 ../app/templates/conjugueur.html
+../app/templates/facelogin.html
 ../app/templates/gameContainer.html
 ../app/templates/home.html
 ../app/templates/info.html
@@ -98,4 +99,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: 9071f6a185e941b4deee84366ca5862c9544dcf9e9e0f60e498c48acee864d73
+# hash: cae90af6d2c247f60e84f06d80f8753095e568430d4cd4a15ad6997fa7b1cb58

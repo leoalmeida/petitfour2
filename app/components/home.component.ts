@@ -1,7 +1,7 @@
 /**
  * Created by LeonardoAlmeida on 02/05/16.
  */
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, NgZone} from '@angular/core';
 import {GameDefinition} from "../models/game.model";
 import {CORE_DIRECTIVES, FORM_DIRECTIVES, Control} from "@angular/common";
 import {Router, RouteSegment, RouteTree, OnActivate} from "@angular/router";
@@ -13,22 +13,25 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/switchMap';
-
 import 'rxjs/add/operator/do';  // debug
-import 'rxjs/add/operator/catch';
+// import 'rxjs/add/operator/catch';
 
 import {ItemsService} from "../services/items.service";
+import {FacebookLoginComponent} from './facebookLogin.component';
 
 @Component({
     selector: 'painel',
     templateUrl: 'app/templates/home.html',
     styleUrls: ['app/stylesheets/home.css'],
-    directives: [CORE_DIRECTIVES, FORM_DIRECTIVES],
+    directives: [FacebookLoginComponent, CORE_DIRECTIVES, FORM_DIRECTIVES],
     providers:  [JSONP_PROVIDERS, ItemsService]
 })
 export class HomeComponent implements OnInit, OnActivate{
+    name=""
+    isUser = false
 
-    constructor(private service: ItemsService, private router: Router) {}
+    constructor(private router: Router,
+                private service: ItemsService) {}
 
     list: GameDefinition[];
     private currSegment: RouteSegment;
@@ -70,7 +73,6 @@ export class HomeComponent implements OnInit, OnActivate{
 
     ngOnInit() {
         this.getAllMenuItems();
-        //this.service.search("");
     }
 
 }

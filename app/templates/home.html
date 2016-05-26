@@ -22,5 +22,9 @@
             </ul>
     </div>
 </div>
+<facebook-login></facebook-login>
 
-<router-outlet name="homeOutlet"></router-outlet>
+<div *ngIf="isUser">
+    <h2> Welcome {{name}} </h2>
+    <router-outlet name="homeOutlet"></router-outlet>
+</div>

@@ -41,6 +41,7 @@
     "del": "~2.2.0",
     "es6-shim": "^0.35.0",
     "font-awesome": "^4.6.1",
+    "ng2-facebook": "0.0.1",
     "glob": "^7.0.3",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
