@@ -17,13 +17,12 @@ import 'rxjs/add/operator/do';  // debug
 // import 'rxjs/add/operator/catch';
 
 import {ItemsService} from "../services/items.service";
-import {FacebookLoginComponent} from './facebookLogin.component';
 
 @Component({
     selector: 'painel',
     templateUrl: 'app/templates/home.html',
     styleUrls: ['app/stylesheets/home.css'],
-    directives: [FacebookLoginComponent, CORE_DIRECTIVES, FORM_DIRECTIVES],
+    directives: [CORE_DIRECTIVES, FORM_DIRECTIVES],
     providers:  [JSONP_PROVIDERS, ItemsService]
 })
 export class HomeComponent implements OnInit, OnActivate{

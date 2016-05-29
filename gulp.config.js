@@ -3,19 +3,23 @@ var connectLogger = require("connect-logger");
 
 module.exports = function () {
     var root = '';
-    var app = root + 'app/';
-    var tmp = root + 'tmp/';
-    var test = root + 'test/';
+    var src = root + '';
+    var app = src + 'app/';
+    var test = src + 'test/';
+    var tmp = src + 'tmp/';
+    var tmpApp = tmp + 'app/';
+    var tmpTest = tmp + 'test/';
     var testHelper = test + 'test-helpers/';
     var e2e = test + 'e2e/';
-    var assets = root + 'assets/';
+    var tmpE2E = tmpTest + 'e2e/';
+    var assets = src + 'assets/';
     var assetsPath = {
         styles: assets + 'styles/',
         imagens: assets + 'imagens/',
         fonts: assets + 'fonts/',
         scripts: assets + 'scripts/'
     };
-    var index = root + 'index.html';
+    var index = src + 'index.html';
     var tsFiles = [
         app + '**/!(*.spec)+(.ts)'
     ];
@@ -50,15 +54,18 @@ module.exports = function () {
             },
             server: {
                 baseDir: './',
-                middleware: [connectLogger(), historyApiFallback()]
+                middleware: [connectLogger(), historyApiFallback()],
+                routes: {
+                    "/node_modules": "node_modules"
+                }
             },
             files: [
-                "index.html",
-                "systemjs.conf.js",
-                "assets/styles/main.css",
-                "tmp/app/**/*.js",
-                "app/**/*.css",
-                "app/**/*.html"
+                src + "index.html",
+                src + "systemjs.conf.js",
+                src + "assets/styles/main.css",
+                tmpApp + "**/*.js",
+                app + "**/*.css",
+                app + "**/*.html"
             ]
         },
         prod: {
@@ -83,15 +90,19 @@ module.exports = function () {
             minify: true,
             mangle: true,
             runtime: false,
-            globalDefs: { DEBUG: false, ENV: 'production' }
+            globalDefs: { DEBUG: false, ENV: 'production'  }
         }
     };
 
     var config = {
         root: root,
+        src: src,
         app: app,
         test: test,
         tmp: tmp,
+        tmpApp: tmpApp,
+        tmpTest: tmpTest,
+        tmpE2E: tmpE2E,
         testHelper: testHelper,
         e2e: e2e,
         e2eConfig: e2eConfig,

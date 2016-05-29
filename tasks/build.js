@@ -13,9 +13,9 @@ var path = require('path');
 
 require('ngstarter-systemjs-tasks');
 
-gulp.task('heroku:production', function (done) {
-    runSequence('build-systemjs', 'build-assets', 'build-manifest', done);
-});
+//gulp.task('heroku:production', function (done) {
+//    runSequence('build-systemjs', 'build-assets', 'build-manifest', done);
+//});
 
 /* Prepare build using SystemJS Builder */
 gulp.task('build', function (done) {
@@ -37,15 +37,14 @@ gulp.task('build-assets', function (done) {
             .pipe(cssnano())
             .pipe(gulp.dest(config.build.app));
 
+        gulp.src(config.src + 'favicon.png')
+            .pipe(gulp.dest(config.build.path));
+
         gulp.src(config.assetsPath.imagens + '**/*.*', {
                 base: config.assetsPath.imagens
             })
             .pipe(gulp.dest(config.build.assetPath + 'imagens'));
-
-
-//        gulp.src(config.assetsPath.scripts + '**/*.js', {
-//            base: config.assetsPath.scripts
-//        }).pipe(gulp.dest(config.build.assetPath));
+        
 
         gulp.src(config.index)
             .pipe(useref())
@@ -61,9 +60,9 @@ gulp.task('build-assets', function (done) {
 gulp.task('build-manifest', function(){
     mergeStream(
         gulp.src([
-            path.join(config.root + '*.html'),
-            path.join(config.root + 'favicon.png'),
-            path.join(config.root + 'fonts/*.*'),
+            path.join(config.src + '*.html'),
+            path.join(config.src + 'favicon.png'),
+            path.join(config.src + 'fonts/*.*'),
             path.join(config.assetsPath.imagens + '*.{png,svg,jpg}'),
             path.join(config.app + 'templates/*.html'),
             path.join(config.app + 'stylesheets/*.css'),
@@ -99,12 +98,12 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('others', function () {
-    gulp.src(config.root + 'pettitfour.appcache', {
-            base: config.root})
+    gulp.src(config.src + 'pettitfour.appcache', {
+            base: config.src})
         .pipe(gulp.dest(config.build.path));
 
-    gulp.src(config.root + 'favicon.png', {
-            base: config.root})
+    gulp.src(config.src + 'favicon.png', {
+            base: config.src})
         .pipe(gulp.dest(config.build.path));
 
     gulp.src(config.app + '**/*.json', {

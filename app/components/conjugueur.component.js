@@ -11,24 +11,48 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 /**
  * Created by LeonardoAlmeida on 07/05/16.
  */
-var core_1 = require('@angular/core');
-//import { JSONP_PROVIDERS }      from '@angular/http';
-//import {ConfigFormComponent} from "./finderForm.component";
+var core_1 = require("@angular/core");
 var gameContainer_component_1 = require("./gameContainer.component");
 var mainPage_component_1 = require("./mainPage.component");
-var facebookLogin_component_1 = require("./facebookLogin.component");
-//import { provide }              from '@angular/core';
-//import { XHRBackend, HTTP_PROVIDERS }           from '@angular/http';
-//import { InMemoryBackendService,  SEED_DATA }   from 'angular2-in-memory-web-api/core';
-//import {VerbsData} from "../data/verbs-data";
+var facebook_service_1 = require("../services/facebook.service");
 var ConjugueurComponent = (function () {
-    function ConjugueurComponent() {
+    function ConjugueurComponent(_ngZone, _facebookService) {
+        this._ngZone = _ngZone;
+        this._facebookService = _facebookService;
         this.name = "";
         this.isUser = false;
         this.startgame = false;
         this.ponctuation = 0;
         this.menuBarOpen = false;
     }
+    ConjugueurComponent.prototype.ngOnInit = function () {
+        this._facebookService.loadAndInitFBSDK();
+    };
+    ConjugueurComponent.prototype.login = function () {
+        var self = this;
+        FB.getLoginStatus(function (response) {
+            if (response.status === 'connected') {
+                console.log('Logged in.');
+            }
+            else {
+                FB.login(function () {
+                    if (response.status === 'connected') {
+                        console.log(response.authResponse.accessToken);
+                        FB.api('/me', 'get', function (response) {
+                            var _this = this;
+                            self._ngZone.run(function () {
+                                self.name = _this.response.name;
+                                self.isUser = true;
+                            });
+                        });
+                    }
+                    else {
+                        console.log('User cancelled login or did not fully authorize.');
+                    }
+                });
+            }
+        });
+    };
     ConjugueurComponent.prototype.gotoMenu = function () {
         this.startgame = false;
     };
@@ -49,9 +73,10 @@ var ConjugueurComponent = (function () {
             selector: 'main-app',
             templateUrl: 'app/templates/conjugueur.html',
             styleUrls: ['app/stylesheets/conjugueur.css'],
-            directives: [facebookLogin_component_1.FacebookLoginComponent, mainPage_component_1.MainPageComponent, gameContainer_component_1.GameContainerComponent]
+            directives: [mainPage_component_1.MainPageComponent, gameContainer_component_1.GameContainerComponent],
+            providers: [facebook_service_1.FacebookService]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [core_1.NgZone, facebook_service_1.FacebookService])
     ], ConjugueurComponent);
     return ConjugueurComponent;
 }());

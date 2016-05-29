@@ -22,7 +22,12 @@
         <i class="fa fa-bars fa-fw" aria-hidden="true" ></i>
     </a>
 
+
+    <main-form *ngIf="!startgame"></main-form>
 </div>
 
-<main-form *ngIf="!startgame"></main-form>
-<facebook-login></facebook-login>
+<div *ngIf="!isUser" class="container" >
+    <button id="facelogin" class="btn btn-lg btn-info btn-social btn-facebook" style="font-size: 1.5em;" (click)="login()">
+        <i class="fa fa-facebook fa-fw"></i>Sign in with facebook
+    </button>
+</div>

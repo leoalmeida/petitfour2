@@ -78,3 +78,15 @@
     font-weight: 300;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
+
+.container{
+    display: flex;
+    flex-flow: row | nowrap;
+    align-content: center;
+    width: 100%;
+}
+
+.container > #facelogin{
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}

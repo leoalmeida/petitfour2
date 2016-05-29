@@ -24,7 +24,6 @@ require('rxjs/add/operator/switchMap');
 require('rxjs/add/operator/do'); // debug
 // import 'rxjs/add/operator/catch';
 var items_service_1 = require("../services/items.service");
-var facebookLogin_component_1 = require('./facebookLogin.component');
 var HomeComponent = (function () {
     function HomeComponent(router, service) {
         this.router = router;
@@ -65,7 +64,7 @@ var HomeComponent = (function () {
             selector: 'painel',
             templateUrl: 'app/templates/home.html',
             styleUrls: ['app/stylesheets/home.css'],
-            directives: [facebookLogin_component_1.FacebookLoginComponent, common_1.CORE_DIRECTIVES, common_1.FORM_DIRECTIVES],
+            directives: [common_1.CORE_DIRECTIVES, common_1.FORM_DIRECTIVES],
             providers: [http_1.JSONP_PROVIDERS, items_service_1.ItemsService]
         }), 
         __metadata('design:paramtypes', [router_1.Router, items_service_1.ItemsService])

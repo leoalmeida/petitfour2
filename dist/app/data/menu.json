@@ -1,7 +1,0 @@
-{
-  "data": [
-    {"id": 1, "name": "Conjugueur", "imgLink": "/assets/imagens/Doughnut.png", "routeLink": "/jeux", "boardSize": 18, "difficult": 1},
-    {"id": 2, "name": "Traducteur", "imgLink": "/assets/imagens/macarron-96.png", "routeLink": "/jeux", "boardSize": 18, "difficult": 1}
-  ]
-}
-

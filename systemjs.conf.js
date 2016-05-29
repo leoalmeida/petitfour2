@@ -3,7 +3,7 @@
 
 (function(global) {
     // ENV
-    global.ENV = 'production';
+    global.ENV = global.ENV || 'development';
 
     // wildcard paths
     var paths = {
@@ -14,37 +14,41 @@
     var map = {
         'app': 'app',
         'rxjs': 'n:rxjs',
-	      '@angular': 'n:@angular',
-        'lodash': 'n:lodash',
-        'moment': 'n:moment',
-        'ng2-facebook': 'n:ng2-facebook'
+        '@angular': 'n:@angular',
+        'lodash': 'n:lodash'
     };
 
     // packages tells the System loader how to load when no filename and/or no extension
     var packages = {
         'app': {defaultExtension: 'js'},
-        'rxjs': {defaultExtension: 'js'},
-        'moment': {main: 'moment.js',defaultExtension: 'js'},
-        'ng2-facebook': {format: 'register', defaultExtension: 'js'}
+        'rxjs': {defaultExtension: 'js'}
     };
 
+    // Add package entries for angular packages
+    var ngPackageNames = [
+        'common',
+        'compiler',
+        'core',
+        'http',
+        'platform-browser',
+        'platform-browser-dynamic',
+        'router'
+    ];
+
+    // add package entries for packages that expose barrels using index.js
     var packageNames = [
-        '@angular/common',
-        '@angular/compiler',
-        '@angular/core',
-        '@angular/http',
-        '@angular/platform-browser',
-        '@angular/platform-browser-dynamic',
-        '@angular/router',
-        '@angular/router-deprecated',
         'lodash'
     ];
 
-    // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }
+    ngPackageNames.forEach(function(pkgName) {
+        var main = pkgName + '.umd.js';
+
+        packages['@angular/'+pkgName] = { main: main, defaultExtension: 'js' };
+    });
+
     packageNames.forEach(function(pkgName) {
         packages[pkgName] = { main: 'index.js', defaultExtension: 'js' };
     });
-
 
 
     var config = {
